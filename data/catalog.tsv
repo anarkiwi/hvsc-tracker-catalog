@@ -1,0 +1,645 @@
+count	player_id	name	author	released	reference
+10738	DMC	Demo Music Creator System (DMC)	Balazs Farkas (Brian)	1991	https://csdb.dk/release/?id=2598
+7550	GoatTracker_V2.x		Lasse Öörni (Cadaver)	2005 Covert Bitops	https://csdb.dk/release/?id=18308
+6403	Music_Assembler		Marco Swagerman (MC) & Oscar Giesen (OPM)	1989 The Dutch USA-Team	https://csdb.dk/release/?id=94388
+4085	MoN/FutureComposer		Charles Deenen made the player & Juha Granberg (FCS) made the editor		https://csdb.dk/release/?id=10604
+3678	JCH_NewPlayer		Jens-Christian Huus (JCH)		https://csdb.dk/release/?id=14037
+3663	Soundmonitor		Chris Hülsbeck	1986 64'er/Markt & Technik	https://csdb.dk/release/?id=59929
+1384	GoatTracker_V1.x		Lasse Öörni (Cadaver)	2001 Covert Bitops	https://csdb.dk/release/?id=152697
+1170	HardTrack_Composer		Milosz Ignatowski (Longhair)		https://csdb.dk/release/?id=74928
+1075	Master_Composer	Master Composer	Paul Kleimeyer	1983 Access Software Inc.	https://csdb.dk/release/?id=128699
+1074	Hermit/SidWizard_V1.x		Mihály Horváth (Hermit)		
+994	Geir_Tjelta/SIDDuzz'It	SID Duzz'It (SDI)	Geir Tjelta & Glenn Rune Gallefoss (GRG)	1992	https://csdb.dk/release/?id=7175
+950	SoedeSoft		Jeroen Soede & Michiel Soede	1988 Soedesoft	https://csdb.dk/release/?id=117095
+680	Digitalizer_V2.x		Olav Mørkrid	1989	https://csdb.dk/release/?id=33646
+593	RoMuzak_V6.x		Oliver Blasnik (ROM)	1989 Digital Marketing	https://csdb.dk/release/?id=17814
+522	Basic_Program				
+446	GMC/Superiors	Game Music Creator System	Balazs Farkas (Brian)	1990	https://csdb.dk/release/?id=7268
+387	X-Ample				
+380	SidFactory_II/Laxity		Thomas Egeskov Petersen (Laxity)	2020	https://csdb.dk/release/?id=210571
+314	Loadstar_SongSmith	Songsmith		Loadstar	https://csdb.dk/release/?id=122855
+314	Laxity_NewPlayer_V21		Thomas Egeskov Petersen (Laxity)	2006	https://csdb.dk/release/?id=26563
+306	CheeseCutter_2.x		Timo Taipalus (Abaddon)	2011	https://csdb.dk/release/?id=106959
+301	Electrosound			1985 Orpheus	https://csdb.dk/release/?id=27433
+293	Ubik's_Musik	Ubik's Musik	Dave Korn (Ubik)	1987 Firebird	https://csdb.dk/release/?id=39950
+289	Rob_Hubbard		Rob Hubbard		
+269	TFX		Ray	1995 Unreal	https://csdb.dk/release/?id=110111
+264	SidTracker64		Daniel Larsson (Pernod)	2015	
+246	AMP	Advanced Music Programmer	Andrew Miller (Burton)	1989 Hitech Studio Designs	https://csdb.dk/release/?id=35519
+245	DefleMask_v12		Leonardo Demartino (Delek)	2016	https://www.deflemask.com/
+245	20CC		Falco Paul		https://csdb.dk/release/?id=10741
+197	EMS/Odie		Sean Connolly (Odie)		
+197	Cyberlogic_SoundStudio	Cyberlogic Sound Studio	Oliver Klee & Sascha Nagie	1991	https://csdb.dk/release/?id=170632
+192	Jeff	Music Editor	Søren Lund (Jeff)	1996 Cyberzound Productions	https://csdb.dk/release/?id=122334
+184	John_Player		Aleksi Eeben	2001 Aleksi Eeben	
+182	MusicShop	The Music Shop	Don Williams	1984 Brøderbund Software	https://csdb.dk/release/?id=82453
+179	Vibrants/Laxity	LAXITY editor	Thomas Egeskov Petersen (Laxity)		https://csdb.dk/release/?id=122333
+163	OdinTracker		Zoltán Konyha (Zed)	2000	https://csdb.dk/release/?id=12577
+148	Ariston		Ian Crabtree		
+140	MoN/Deenen		Charles Deenen		
+137	Reflextracker		Tammo Hinrichs (kb) & Matthias Kramm (Quiss) & Zorc		https://csdb.dk/release/?id=43348
+134	LordsOfSonics/MS		Markus Schneider		
+131	Prosonix	Prosonix Music Editor	Stein Pedersen	1988 Prosonix	https://csdb.dk/release/?id=179618
+130	CyberTracker_exe			2001	https://csdb.dk/release/?id=6663
+130	Vibrants/JO		Poul-Jesper Olsen (JO)		
+128	CyberTracker		Bjarke Nørgaard Laustsen (CyberBrain)	2001	https://csdb.dk/release/?id=2601
+117	David_Whittaker				
+117	SidWinder		Balázs Takács (Taki)	1999 Natural Beat	https://csdb.dk/release/?id=66494
+108	SynC	SYNdrom Composer	Matthias Hartung (The Syndrom)		https://csdb.dk/release/?id=7850
+107	DefMon		Mats (Frantic of Hack'n'Trade)	2013	https://csdb.dk/release/?id=120965
+104	System6581		Fredrik Hederstierna (Zizyphus)		https://csdb.dk/release/?id=27434
+102	Michael_Winterberg	Speedi System	Michael Winterberg		
+102	Walt/Bonzai		Anders Fogh (Walt)	1990 Bonzai	https://csdb.dk/release/?id=12580
+99	Audial_Arts	Zong Player	François Prijt	Audial Arts	
+99	Chubrocker_V3.x		László Benke (Dec)	1995 Cadgers	https://csdb.dk/release/?id=114185
+97	NinjaTracker_V2.x		Lasse Öörni (Cadaver)	2006 Covert Bitops	https://csdb.dk/release/?id=39374
+94	JCH_Protracker		Jens-Christian Huus (JCH)		
+94	TBB/SideB		Tero Hilpinen (TBB)		
+92	Sosperec		Gabor Torday (Grabowsky)	1991	https://csdb.dk/release/?id=18233
+91	Guy_Shavitt				
+88	Antony_Crowther_V3		Antony Crowther		
+84	Digitalizer_V3.0		Olav Mørkrid	1992	https://csdb.dk/release/?id=33649
+78	MoN/Bjerregaard		Johannes Bjerregaard		
+78	SoundMaker	Sound-Maker	Pleite Geier	United Artists	
+78	Yip_MegaSound	MegaSound Music Editor	Jori Olkkonen (Yip)	1988	https://csdb.dk/release/?id=72917
+76	PollyTracker		Aleksi Eeben	2005	https://csdb.dk/release/?id=18605
+75	Groovy_Bits	Groovy Music	Lars Patrik Wallström (Karl XII)	1989 Groovy Bits	https://csdb.dk/release/?id=121513
+74	Matt_Gray		Matt Gray		
+72	DefleMask_v2		Leonardo Demartino (Delek)	2013	https://csdb.dk/release/?id=118363
+71	Zardax		Ari-Pekka Paljakka (Zardax)		
+69	Ed/Wrath		Eddie Svärd (Ed)		
+68	Trident/Active		Adam Dunkels (Trident)		
+67	Roland_Hermans				
+67	Glover_NewPlayer_V21		Lukasz Baran (Glover)	2000	https://csdb.dk/release/?id=101623
+67	Bjerregaard		Johannes Bjerregaard		
+67	Heathcliff/DigitalArts	Audio Assembler (a.k.a. Focus in-house music editor)	Rene Lergner (Heathcliff)	1990 Digital Arts	https://csdb.dk/release/?id=112794
+67	Asterion_V1.x		Rafal Kazimierski (Asterion)	2004	https://csdb.dk/release/?id=11576
+65	Music_Processor	The Music Processor	M. Peter Engelbrite	1984 Sight & Sound	https://csdb.dk/release/?id=150058
+61	Virtuoso		Hein Holt	2015 Vision	https://csdb.dk/release/?id=139247
+60	Ben_Daglish/Gremlin				
+55	Martin_Galway		Martin Galway		
+54	SkyLine_Editor	SkyLine Editor	Daniel Stenberg (Danne)	1989 SkyLine Technics	https://csdb.dk/release/?id=22726
+54	Fred_Gray				
+54	FAME		Adam Bulka	1988 F.A.M.E.	
+53	GKGM	Garry Kitchen's GameMaker	Alex DeMeo	1985 Activision	
+52	Artline_Designs		Antti Kangas (AK)	Artline Designs	
+52	Geir_Tjelta/SIDSys18.6	Sid Systems V4.1	Geir Tjelta	1990	https://csdb.dk/release/?id=33644
+48	Basic/Jim_Butterfield				
+48	Arne/AFL		Arne Puszelski (Arne)		
+47	Power_Music		Michael Kukat (Raster Buster)	1989 Matrix	https://csdb.dk/release/?id=61127
+47	Adam_Gilmore				
+46	Geir_Tjelta/SIDSys18.4	Sid Systems V4.1	Geir Tjelta	1990	https://csdb.dk/release/?id=33644
+45	David_Dunn				
+45	Griff		Péter Varga (Griff)		
+45	Geir_Tjelta/SIDSys_1.0	Sid Systems V1	Geir Tjelta	1990	https://csdb.dk/release/?id=108477
+42	Mssiah			2008 8bit Ventures	
+42	The_Music_System	The Music System		1985 Firebird	
+42	Music_Studio/Lieblich			1985 Activision	https://csdb.dk/release/?id=90711
+42	Zardax/SoundKiller		Ari-Pekka Paljakka (Zardax) & Sami Ilmonen (Scapegoat)		https://csdb.dk/release/?id=99054
+41	PASS	P.A.S.S. (Parabola Advanced Synthesis Software) / Allegro	Bob Landwehr	1983 Parabola / 1984 Artworx Software	https://csdb.dk/release/?id=128704
+41	5_Dimension	5 Dimension Composer	Pleite Geier	1990 Pleite Geier	https://csdb.dk/release/?id=122330
+40	Olav_Moerkrid				
+40	SidFactory/Laxity		Thomas Egeskov Petersen (Laxity)	2006	https://csdb.dk/release/?id=39519
+40	Blackbird/LFT	Blackbird 1.0	Linus Åkesson (lft)	2017 lft	https://csdb.dk/release/?id=153555
+39	Digi-Organizer	Digi-Organizer	Pawel Soltysinski (Polonus) & Marco Wienkoop (Lubber)	1991 Padua	https://csdb.dk/release/?id=871
+39	MusicComposer/FlashInc	Music-Composer	Fredrik Karlsson (Zodiac) & Anders Elmén (Moon)	1991 Flash Inc.	
+39	Equalizer				
+37	D.A.I.S.Y.				
+37	Background_MusicEditor	Background Music Editor	Gary Davis	1983	https://hvmec.altervista.org/blog/?p=3405
+37	NordicBeat_Editor		Daniel Hansson (Matrix)	1991 Nordic Beat	https://csdb.dk/release/?id=33642
+37	MusDriver/Paul_Hughes	Music Driver	Paul Hughes		
+37	Mark_Cooksey		Mark Cooksey		
+37	Stephen_Ruddy		Stephen Ruddy		
+37	Maduplec		Martin Arentoft (Maduplec)		
+36	4753_Softcopy				
+36	Comer/NMI_Sample_5		Pawel Kulikowski (Comer)		https://csdb.dk/release/?id=101599
+35	PVL/Rhythmic_Lunatics		Pascal van Loosbroek (PVL)		
+35	Jeroen_Kimmel				
+34	Soundbooster		Stephan Swertvaegher (Midas)	1990	https://csdb.dk/release/?id=7536
+34	GeniusComposer		Tobias Erbsland (Dr. Zoom)	1994	https://csdb.dk/release/?id=94332
+33	Sonic_Graffiti	Sonic Graffiti Music Editor	Andy Lumley	1989 Sonic Graffiti	https://csdb.dk/release/?id=122160
+32	JCH_OldPlayer		Jens-Christian Huus (JCH)		
+31	C64_Speech_System	C64 Speech System	Kristian Köhntopp	1986 64'er/Markt & Technik	https://csdb.dk/release/?id=129965
+31	Cycleburner_Digi		Even Scharning (Cycleburner)		
+31	Mark_Tait				
+31	Sidbang64_2/Warp8		Sebastian Abel (Warp8)		
+30	Acid_Player		Stuart McDowell (Acid)		
+28	TFMX/TimeComposer		Oliver Hoeller (Rhodan)	1990	https://csdb.dk/release/?id=62502
+28	Neil_Brennan				
+27	Hermit/1RasterTracker		Mihály Horváth (Hermit)	2013	https://csdb.dk/release/?id=117935
+27	Mike/LSD		Michael Vandenberg (Mike)	1990 Lightning Soundtrack Development (LSD)	
+27	Frank_Hammer/Sharon				
+26	Companion	The Companion to the Commodore 64	Keith Bowden	1984 Pan Books	
+26	Sidbang64_1/Warp8		Sebastian Abel (Warp8)	2021	https://csdb.dk/release/?id=199203
+25	Element114Studio_2.0	Music Studio 2	Martin Piper	2010 Element 114 Software	https://csdb.dk/release/?id=91544
+25	Barry_Leitch				
+25	Companion/Jay_Derrett		Jay Derrett		
+25	Kawasaki_Synthesizer	Kawasaki Synthesizer	Ryo Kawasaki	1983 Sight & Sound Music Software	
+25	CCC_Editor	Commodore Cracking Crew Music Editor	Pex Tufvesson	1987 Commodore Cracking Crew	https://csdb.dk/release/?id=149128
+24	Sound-Tracker_64		Claus Leth Gregersen (Groo) & Michael Toft (Dean) & Lars Pedersen (Spe)	1988 Mechanix 2124	https://csdb.dk/release/?id=36365
+24	Jason_Brooke				
+23	Harri_Palviainen				
+23	TrackPlayer		Marceli Rzepka (Lyon)	Motiv 8	https://csdb.dk/release/?id=90076
+22	TFMX	The Final Musicsystem eXtended (TFMX)	Chris Hülsbeck	1988	
+22	RoMuzak_V7.x		Oliver Blasnik (ROM)		https://csdb.dk/release/?id=17819
+22	Stephan/Bytemare	Music-Editor	Stephan Schloepke (Magic Man)	1990 Bytemare	https://csdb.dk/release/?id=125970
+22	Jeroen_Koops				
+22	Slaygon		Kenneth Mutka (Slaygon)		
+21	SadoTracker		Lasse Öörni (Cadaver)	1999 Covert Bitops	https://csdb.dk/release/?id=72773
+21	Games_Creator	The Games Creator	David Darling & Richard Darling	1984 Mirrorsoft Ltd. / Mastertronic	https://csdb.dk/release/?id=116924
+21	Radarsoft				
+21	Roel_Bosch				
+21	Paradroid/Lameplayer		Paradroid	1990	https://csdb.dk/release/?id=101595
+20	Novaload				
+20	Loadstar_SongSmith_v1				
+20	Electronic_Speech_Sys	Electronic Speech System			
+20	Dave_Warhol				
+20	Tiny/Sound_Images				
+20	Anvil		Petri Reiman (Anvil)		
+20	MacMusic				https://csdb.dk/release/?id=117250
+19	Antony_Crowther_V2	Music Master	Antony Crowther	1986 Your Commodore	https://csdb.dk/release/?id=14590
+19	Artlace	Artlace Editor (ARL-Editor)	Artúr Bujdosó (Artlace)	1993 Rebels	https://csdb.dk/release/?id=152723
+19	Music_Construction_Set	Will Harvey's Music Construction Set	Will Harvey	1984 Electronic Arts	https://csdb.dk/release/?id=185248
+18	Comer/Sample_Studio		Pawel Kulikowski (Comer)		https://csdb.dk/release/?id=101704
+18	NinjaTracker_V1.x		Lasse Öörni (Cadaver)	2002 Covert Bitops	https://csdb.dk/release/?id=7206
+18	OxyMod4Bit/THCM		Uwe Anfang (The Human Code Machine)		
+18	GRG_tiny_4		Glenn Rune Gallefoss (GRG)		
+18	Burgstaller_B				
+18	Micropearl/Fitzpatrick				
+18	Ghost/SampleMon	Sample Mon	Slawomir Skrzynski (Ghost)	1994 Biuro Informatyczno-Wydawnicze (BIW)	https://csdb.dk/release/?id=9876
+18	LFT		Linus Åkesson (LFT)		
+18	Harald_Rosenfeldt	Music Assembler V3.1	Harald Rosenfeldt	1989 64'er/Markt & Technik	
+17	K-Byte				
+17	GalBard/ATOO	GalBard	Anders Andréen (ATOO)		
+17	Chris_Cox				
+17	Extra_Sound		Tobias Herre		https://csdb.dk/release/?id=111493
+17	Ashley_Hogg				
+17	Toaster_Digi		Tomasz Przybylski (Toaster)		
+17	Martin_Walker				
+16	Assassin_Sample_Mixer	Sample Mixer	Assassin	1993	https://csdb.dk/release/?id=129555
+16	Element114Studio_1.0	Music Studio Plus	Martin Piper & Alan Peters	1992 Element 114 Software	
+16	DMC_V6.x	Demo Music Creator System (DMC)	Balazs Farkas (Brian)		
+16	Henning_Andersen				
+15	Polyanna		Aleksi Eeben	2017	https://csdb.dk/release/?id=153091
+15	PlayStar	Play Star	Radoslaw Andrzejewicz (Rabbi)		
+14	OmegaSupreme_Digi		Olav Mørkrid (Omega Supreme)		
+14	Sidplayer		Craig Chamberlain	1985	https://csdb.dk/release/?id=33248
+14	Music_Producer_II	Music Producer II	J.N.W. Cheesman		
+14	Michael_Delaney	C64 Music Editor V1.0	Michael Delaney	1992 Michael Delaney	https://csdb.dk/release/?id=138249
+14	Android		Andrew Craigie (Android)		
+14	GRG_tiny_2		Glenn Rune Gallefoss (GRG)		
+14	Hermit/FlexSID		Mihály Horváth (Hermit)	2022	https://csdb.dk/release/?id=214694
+13	Neil_Baldwin				
+13	JammicroV1	Jammicro V1	Kamil Wolnikowski (Jammer)		
+13	Glover		Lukasz Baran (Glover)		
+13	Kosa_Protracker		Jakub Kosinski (Kosa)		
+13	Dave_Lowe				
+13	Twynn		Ruud den Bekker (Twynn)		
+12	Basically_Music		Greg Tarr	1988 Compute! Gazette	
+12	RiffQuick				
+12	Georg_Brandt				
+12	Chris_Huelsbeck				
+12	Paul_Butler				
+12	Mark_Clements				
+12	Anthony_Lees				
+12	Stuart_Taylor				
+12	Mark_Wilson		Mark Wilson		
+11	Dutch-USA_Team/ProDrum		The Dutch USA-Team	1988	https://csdb.dk/release/?id=20672
+11	?Hoernell/Players				
+11	Samplomed				
+11	GRG		Glenn Rune Gallefoss (GRG)		
+11	Russell_Lieblich		Russell Lieblich		
+11	Prosonix_new				
+11	Gavin_Raeburn				
+11	ATMDS_3.x	Acid Track Music Development System (ATMDS)	Stefan Hübner (St0ff)	2001 Neoplasia	https://csdb.dk/release/?id=7159
+10	?MSB				
+10	Frank_Tout				
+10	?Source_2				
+10	?Paul_Hodgson				
+10	Paul_Norman/Cosmi				
+10	OxyMod/THCM		Uwe Anfang (The Human Code Machine)		
+10	Geir_Tjelta/Echo				
+10	Faith_Sample_Mixer	Sample Mixer	Slawomir Balon (BS)	1994 Faith Design	https://csdb.dk/release/?id=7296
+10	Star_Bars	Star Bars Atari 2600 Music Editor	Aleksi Eeben	2023	https://csdb.dk/release/?id=234625
+10	Wyndex/Blahtune		Stephen L. Judd (Wyndex)	1997	http://www.ffd2.com/fridge/blahtune/
+10	Kris_Hatlelid				
+10	DrumEditor	Drumeditor V3.0	Frank Hugenroth & André Hugenroth	1990 64'er-Disc/Markt & Technik	https://csdb.dk/release/?id=136179
+10	Oeyvind_Jergan		Øyvind Jergan		
+10	Oliver_Klaewer				
+10	Zyborg		Mikkel Jakobsen (Zyborg)		
+9	Censor_Digi_1				
+9	Synth_Executor	Synth Executor	Georg Feil (Georgie)	1986 Georg Feil	https://csdb.dk/release/?id=57436
+9	?TheSpy_Digi				
+9	MiniMusic	Mini Music Editor	Balazs Farkas (Brian)	1990 Tomcat	https://csdb.dk/release/?id=55790
+9	?Alligata/Quicksilva				
+9	?Bob_Vieira/Epyx				
+9	Stephen_Biggs				
+9	GRG_tiny_1		Glenn Rune Gallefoss (GRG)		
+9	GMC_V2.0/Superiors	Game Music Creator System	Balazs Farkas (Brian)		
+9	Odie/Cosine		Sean Connolly (Odie)		
+9	Drumtex		Vidar Bang (Drumtex)		
+9	Holger_Gehrmann	Soundcontrol	Holger Gehrmann	1984	https://csdb.dk/release/?id=30432
+9	SoundBox/MDA		Tim Kleinert	1991 Modern Arts	https://csdb.dk/release/?id=112576
+9	Richard_Joseph				
+9	Music_Magic		Mark Riley & Jon Rami	1984 Mark Riley & Jon Rami	https://csdb.dk/release/?id=129644
+9	Sorex_Digi		Geert Verschueren (Sorex)		
+9	Zod_Digi				
+8	Network	Network Music Editor V1.4			https://csdb.dk/release/?id=207305
+8	Jim_Cuomo				
+8	Nigel_Grieve				
+8	Thiel_Sound_System	David Dwyer Thiel Sound System (DDTSS)	David Thiel		
+8	Tonal_Kaos				
+8	Dave_Lee				
+8	Steve_Turner				
+8	?Howard_Boles				
+8	ICC/TheVoice		Incredibly Confused Coder (ICC)		
+8	David_Green				
+8	Jason_Page/RobTracker		Jason Page		
+8	SoundWriter_2.0		Thorsten Klose	1992 64'er/Markt & Technik	https://csdb.dk/release/?id=17422
+8	Mermaid_tiny				
+8	Dane		Stellan Andersson (Dane)		
+8	Mixer		Jouni Ikonen (Mixer)		
+8	Noise-Mon_V2		Piotr Pisula	1992 Piotr Pisula	
+8	Jason_Page				
+8	Reiter_Digi		Bartek Stobiecki (Reiter)		
+8	Martijn_Schutten				
+8	Hans_Siemons				
+8	Graffity/Grabowsky				
+8	Matthias_Weber				
+7	Power-Composer		Markus (Biscuit)		https://csdb.dk/release/?id=236659
+7	Quantum_Soundtracker		Aleksi Eeben	2024 Aleksi Eeben	https://csdb.dk/release/?id=245053
+7	Mcee_Digi				
+7	Colleen				
+7	?Jim_Simmons/Capcom				
+7	VoiceEater		Rolf Runar Bakke	1999 SHAPE	https://csdb.dk/release/?id=33610
+7	Bobbi_Towers				
+7	Ed_Bogas/Accolade		Ed Bogas		
+7	Neil_Crossley				
+7	Ivan_Del_Duca				
+7	Gavin_Graham_2				
+7	Algorithm/Frodigi	Free Running Oscillator Digi	Naveed Khugiani (Algorithm)		
+7	Mat/MDA		Matthias Hillebrand of Modern Arts		
+7	(Dane_NewPlayer)	JCH-editor 3.1 + NP22-25	Stellan Andersson (Dane)	2011	https://csdb.dk/release/?id=100406
+7	Ozzy_Oldschool_V1		Ossi Aarnio (Ozzy Oldskool)		
+7	SounDemon		Otto Järvinen (SounDemoN)		
+7	Song_Writer		Jeremy Thorne		
+6	Modulator	Modulator	Thomas Krätzig	1985 64'er/Markt & Technik	https://csdb.dk/release/?id=129802
+6	Cyberbrain_Digi		Bjarke Nørgaard Laustsen (CyberBrain)		
+6	MicroRhythm		Simon Pick	1986 Firebird	https://csdb.dk/release/?id=49637
+6	Voicemaster_Covox	Voicemaster	Brad Stewart & Ned Higgins	1984 Covox Inc.	
+6	CharlesCallet/MusicPro	Music Pro	Charles Callet		https://cpcrulez.fr/applications_music-music-pro.htm?t=VA==
+6	?Source				
+6	Paul_Hughes		Paul Hughes		
+6	Ed_Bogas/Hakansson		Ed Bogas		
+6	ID_3.x		Danjel Nyberg (Amadeus)		
+6	Steve_Bak				
+6	Element114Studio_1.2	Music Studio Plus	Martin Piper & Alan Peters	2010 Element 114 Software	https://csdb.dk/release/?id=90404
+6	Digimixer/FunFactory	Digimixer	Gyula Szalai (Jules)	199? Fun Factory	https://csdb.dk/release/?id=129559
+6	Censor_Digi_2				
+6	MacGyver/ESV	Expanded SID Voice	Mac Gyver	1988 Digitize Design Group	https://csdb.dk/release/?id=129556
+6	Geir_Tjelta/Comptech-X	Comptech-X	Geir Tjelta	2019 <?>	
+6	Rene_Romijn				
+6	Matt_Furniss				
+6	Golem		Paul H. (Golem)		
+6	MusicSlave				
+6	Van_Styer_Digi		Piotr Przewozny (Van Styer)		
+6	Hermit				
+6	Symphonica/MDA	Symphonica Music System V1.0	Tim Kleinert		
+6	JammicroV0	Jammicro V0	Kamil Wolnikowski (Jammer)		
+6	KB/TOM		Tammo Hinrichs (kb) of The Obsessed Maniacs (TOM)		
+6	Dave_Kelly				
+6	Stephen_Legg				
+6	Madhacker_Digi		David (Madhacker)		
+6	Magnar_tiny				
+6	MrMouse/EasyPlayer		Michael Zuurman (Mr. Mouse)		
+6	Paul_Mudra				
+6	Visac_tiny				
+5	Martin_Galway_Digi		Martin Galway		
+5	?Juergen_Jost				
+5	TFMX/MasterComposer		Playboy & Sir Tippitt	1990 Bierfront	https://csdb.dk/release/?id=4298
+5	Hansford/Interceptor		Graham Hansford		
+5	Muso		Tony Reihana	1985	https://csdb.dk/release/?id=156826
+5	Neil_Bate		Neil Bate		
+5	Parker_Bros				
+5	Capcom_2				
+5	Chris_Grigg_2				
+5	Llamasoft/James_Lisney				
+5	4-Mat_tiny_1				
+5	HCL/BoozeDesign		David Malmborg (HCL)		
+5	Graffity/Brian				
+5	Audial_Arts/Cody				
+5	Bappalander/Spacelab1				
+5	Bug/NCI				
+5	SkyLine_Editor_V3.0	SkyLine Editor	Daniel Stenberg (Danne)	1990 SkyLine Technics	https://csdb.dk/release/?id=167080
+5	Jason_Briggs				
+5	Music_Maker_128			1985 Music Sales Ltd	https://csdb.dk/release/?id=119395
+5	ChristopherJam				
+5	Steve_Day_Digi				
+5	Rotteroy_tiny				
+5	Chris_Grigg	Sound Programming Language (SPL)	Chris Grigg		
+5	HouseDesigns				
+5	ALiH		Jaymz Julian (A Life in Hell)		
+5	Maxx_Digi		Zana Bela (Maxx)		
+5	Mermaid_tiny_2				
+5	Ulrich_Muehl				
+5	PM/Niwa				
+5	Sarratou_Digi				
+5	Marco_Scheepers				
+5	Sentinel_V0.7	Sentinel Music Player V07.G0	Sentinel	2020 Sentinel	https://csdb.dk/release/?id=202684
+5	Shaun_Southern				
+5	ATMDS_1.x	Acid Track Music Development System (ATMDS)	Stefan Hübner (St0ff)	1997 Neoplasia	https://csdb.dk/release/?id=129844
+5	Ultimate		Dave Thomas <?>		
+5	JITT64_1.x		Stefano Tognon (Ice00)	2008 Ice Team	https://csdb.dk/release/?id=74136
+5	Steffen_Wagner				
+5	Walt_Digi		Anders Fogh (Walt)		
+4	FurC64		AnnoyedArt1256	2025 AnnoyedArt1256	https://github.com/AnnoyedArt1256/furC64
+4	Rastelin/Bones		Jacob Surland (Rastelin)		
+4	Georg_Brandt/Rhythm_CS	Rhythm Construction Set	Georg Brandt	1986 64'er/Markt & Technik	https://csdb.dk/release/?id=9000
+4	Prophet64			2006 8bit Ventures	
+4	Spinnaker				
+4	XPMCK	Cross Platform Music Compiler Kit	Mic	2008	https://csdb.dk/release/?id=135624
+4	Ozzy_Oldschool_V2		Ossi Aarnio (Ozzy Oldskool)		
+4	MegaVisionMusic64	MegaVision Music 64 V1.0	Stefan Konrath	1992 64'er/Markt & Technik	https://csdb.dk/release/?id=129795
+4	?Unknown_1				
+4	Softidea				
+4	?CBS				
+4	?Unknown_8				
+4	Creative_Sparks				
+4	?Jetsoft				
+4	?Emerald_Software				
+4	Bubble_Bus/Love_R				
+4	?Charlie_Barr/DataEast				
+4	4-Mat/Patchwork				
+4	4-Mat/TEDplay				
+4	Mjoosic_Mejker	Mjoosic Mejker	Fredrik Ademar (Phred)	1988 Crackers & Programmers Unlimited	https://csdb.dk/release/?id=43954
+4	Ash&Dave_Digi				
+4	Steven_Baumrucker_2				
+4	Christoph_Bergmann				
+4	Comer/Digi		Pawel Kulikowski (Comer)		
+4	Antony_Crowther_V1				
+4	Danko/Shadi				
+4	Colin_Davies				
+4	Gavin_Graham				
+4	Groo/Psygon		Claus Leth Gregersen (Groo)		
+4	Lars_Haard				
+4	Urs_Heckmann				
+4	Hein_tiny				
+4	JCH_DigiPlayer				
+4	Kyle_Johnson				
+4	KingFisher_Digi				
+4	Audio_Effect_Editor	Audio Effect Editor	Alexander Kirsch	1989 Golden Disk 64/CP Verlag	https://csdb.dk/release/?id=122169
+4	Twice_Effect_Editor	Twice Effect Music Editor	Thomas Engelau	1991 Twice Effect	https://csdb.dk/release/?id=157105
+4	Dan_Liverani				
+4	MRG				
+4	Montecchio/Coolsound		Andreas Montecchio		
+4	John_Prince				
+4	Luigi_Recanatese				
+4	Daryll_Reynolds				
+4	Sentinel_V0.4				
+4	Gilles_Soulet				
+4	Censor_Digi/16khz				
+4	WizPlayer_2.0		Piotr Kuciapski (Wizard)		
+4	Keith_Wood				
+3	Boners				
+3	Audial_Revolution	Audial Revolution Music Editor	Maikel van de Lisdonk (Yoga)	1989 Audial Revolution	https://csdb.dk/release/?id=71543
+3	Audiomaster_V2		Ruben Spaans (Scroll)	1989 Megastyle	https://csdb.dk/release/?id=7072
+3	Digitize_Design_Group				
+3	Torpex	Torpex's Music Editor	Peter Eriksson (Torpex)	1991 Wildstyle	https://csdb.dk/release/?id=78289
+3	Dutch-USA_Team/MC				
+3	Loadstar_SongSmith_v3				
+3	Charles_Callet				
+3	Bubble_Bus				
+3	En-Tech_Studio64				
+3	?Heiko_Schroeder				
+3	Pretzel/Soundscape	Soundscape	Fredrik Blom	1990 Pretzel Logic	https://csdb.dk/release/?id=33643
+3	?ArgusPress				
+3	Choice_Software				
+3	?Unknown_10				
+3	?Caesar_Studio				
+3	Catalyst_Coders				
+3	Kevin_Grieve				
+3	?Beam_Software				
+3	Jim_Baguley/SolarSoft				
+3	?Kyle_Granger				
+3	?DaveJones/MrChip				
+3	Crunched:Exomizer				
+3	4-Mat_tiny_2				
+3	Kenneth_Arnold		Kenneth W. Arnold		
+3	Audial_Arts/Cody_Digi				
+3	Entropy_Editor	Entropy Music Editor	Simon Collis (Uzzy)	1993 Entropy	https://csdb.dk/release/?id=100032
+3	Andreas_Bauernfeind				
+3	Steven_Baumrucker_1				
+3	Frank_Brodersen				
+3	Andy_Brown				
+3	Cadaver_Musicdriver_10				
+3	Andrew_Colin				
+3	Odie_tiny		Sean Connolly (Odie)		
+3	Cope/Omicron				
+3	Jeff/BullSID		Søren Lund (Jeff)		
+3	CRD_Tracker	CRD-Tracker64	Owen Crowley (CRD)	2007 Owen Crowley	https://csdb.dk/release/?id=48461
+3	Cyrion_Digi				
+3	Daw_Digi		David Fahlander (Daw)		
+3	Drumtex_tiny				
+3	Commodore/Andy_Finkel				
+3	Hermit/FlexSID-Bare		Mihály Horváth (Hermit)	2022	https://csdb.dk/release/?id=214694
+3	TGS_Digi		Gábor Gáspár (The Galactic Stranger)		
+3	Jeremy_Hall				
+3	John_Hancock				
+3	Digital_Systems				
+3	Arti_Haroutunian				
+3	Jonas_Hulten		Jonas Hultén		
+3	Jeff/Airwalk		Søren Lund (Jeff)		
+3	Jeff/XLarge		Søren Lund (Jeff)		
+3	Nick_Jones				
+3	Tommi_Joutsiniemi				
+3	Ryo_Kawasaki				
+3	Oliver_Kirwa				
+3	Thomas_Kolbe				
+3	Ken_Lagace				
+3	Lethal_Digi				
+3	Al_Lowe				
+3	8bitDigi/Mahoney		Pex Tufvesson (Mahoney)		
+3	DreamComposer/Tendance				
+3	Bo_Mellberg				
+3	MrWarp_Digi		Markus Peter (Mr. Warp)		
+3	Paul_Norman/ComPub				
+3	Jason_Page/Jay	Jays Music Routine	Jason Page (Jay)	1988	https://csdb.dk/release/?id=43956
+3	Music_Works			1991 Simulmondo	https://csdb.dk/release/?id=92082
+3	Sanyo_Digi		Stephane Martel (Sanyo)		
+3	Scout_Digi				
+3	Silpheed_tiny				
+3	Tom_Snyder				
+3	StreetTuff_4K				
+3	StreetTuff_Digi				
+3	Roger_Svensson				
+3	TIC/Artworx				
+3	Microtracker		Matthias Hartung (The Syndrom)		https://codebase64.org/doku.php?id=base:microtracker_v1.0
+3	Frederic_Thiesse				
+3	Trasher_Digi		Preben Vindholmen (Trasher)		
+3	Robert_Westgate_v2		Robert Westgate		
+3	Robert_Westgate_v1		Robert Westgate		
+3	Wyndex/ISEQ		Stephen L. Judd (Wyndex)	2001	https://csdb.dk/release/?id=113028
+3	Yip_Digi				
+3	Zirias		Felix Palmen (Zirias)		
+2	Ed/Wrath_Digi		Eddie Svärd (Ed)		
+2	Champ_Digi				
+2	?Commodore				
+2	Emmanuel_Lavall				
+2	Busic/Frank_Inklaar				
+2	256bytes/Frantic				
+2	?Unknown_Digi_2				
+2	?Unknown_Digi_3				
+2	Andy_Wilson				
+2	Hane_MusicMaker				
+2	?Steve_Kellet				
+2	?American_Greetings				
+2	?Dataapan				
+2	Oliver_Klaewer/Woogle				
+2	256bytes/LFT				
+2	Synthicat				
+2	?Unknown_7				
+2	?Digital_Integration				
+2	?Andrew_Colin/Talent				
+2	Kurt_Heiden				
+2	?Pal_Balog				
+2	?Macsen				
+2	Marcin_Grzegorzewski				
+2	Zoltan_Mohos				
+2	?Jeff_Schneider				
+2	?Edge				
+2	?Andrew_Pohl				
+2	Maurizio_Feletto				
+2	Ray_Rideout				
+2	?Ice_Software				
+2	B_Robinson				
+2	?Ahead_Designs				
+2	Tim_Gibson				
+2	?Jim_Andron				
+2	M_J				
+2	Achim_Schulz				
+2	Colin_Porch				
+2	Synthesizer64	Synthesizer 64	Werner Kracht		https://csdb.dk/release/?id=86037
+2	?MindSpan				
+2	?Konami				
+2	Chris_Hochberger				
+2	Americana				
+2	Sequencer	Sequencer	Thomas Krätzig	1985 64'er/Markt & Technik	https://csdb.dk/release/?id=129802
+2	Andy_Morton				
+2	?Virgin				
+2	?US_Gold_90				
+2	Randy_Glover				
+2	John_Darnell				
+2	Berkeley				
+2	Johannes_Goettker		Johannes Göttker		
+2	Roy_Glover				
+2	Microillusions				
+2	Oliver_Buettner				
+2	English_Software				
+2	Olivier_Barthelemy				
+2	?Robert_Hardy				
+2	Alberto_Geneletti				
+2	Jeff_Minter				
+2	Steven_Green				
+2	?Gamestar				
+2	Daglish/?Jeff_Calder				
+2	4-Mat/1k_Play				
+2	4-Mat/MiniSeq				
+2	4-Mat_tiny_3				
+2	KB/SDS		Tammo Hinrichs (kb) of Smash Designs (SDS)		
+2	Abaddon_Digi		Timo Taipalus (Abaddon)		
+2	AnnoyedArt1256_Digi				
+2	(Audial_Arts_Digi)				
+2	Sarah_Jane_Avory				
+2	ProDrum_2/Antifan		Christian Grün (Antifan)		https://csdb.dk/release/?id=74041
+2	Mega_Player	Mega Player	Dirk Bialluch		https://wayback.archive.org/web/lightstorm3d.com/portfolio/html_en/mega_player.htm
+2	GRG_tiny_3		Glenn Rune Gallefoss (GRG)		
+2	Cadaver_Musicdriver_7				
+2	Odie/Pulse		Sean Connolly (Odie)		
+2	(EMS_V10.x)		Sean Connolly (Odie)		
+2	Krill_tiny				
+2	Bacco_Digi				
+2	Tommy_Dunbar				
+2	Ed/Wrath_Digi_2				
+2	256bytes/Laxity				
+2	Input64				
+2	Gregor_Larson		Gregor Larson		
+2	Rule3_Digi_2		Marcin Jedrusik (Helios)		
+2	?Paul_Higginbottom				
+2	Christian_Hikl				
+2	Eweguo		Karl Hörnell		
+2	Jeff/FLT		Søren Lund (Jeff)		https://csdb.dk/release/?id=17292
+2	Jeff/BullSID3				
+2	Jer_Digi				
+2	256bytes/ALiH				
+2	Algorithm/8bitDigi		Naveed Khugiani (Algorithm)		
+2	AlgoVQTracker_V1		Naveed Khugiani (Algorithm)		
+2	Thomas_Levine				
+2	?Action_Graphics				
+2	Longhair		Milosz Ignatowski (Longhair)		
+2	Dutch-USA_Team/86				
+2	Magic_Man/Crazy		Stephan Schloepke		
+2	Magnar/Unrolled				
+2	Censor_8bit_Digi_1		Fredrik Ternell (Swallow)		
+2	Mindcooler				
+2	Mindcooler_2				
+2	Prosonix_tiny				
+2	Proton_tiny				
+2	Musicodec	Musicodec	Fabian Rosenschein		
+2	Nick_Scarim				
+2	E_Determann				
+2	Mr_Watson_Digi				
+2	Nutt67_Digi		Ben Hayes (Nutt'67)		
+2	Dave_Spicer_V1				
+2	Carmine_TSM				
+2	Peter_Thierolf				
+2	256bytes/Ice00				
+2	?Tork/Pulsar				
+2	Mark_Trotter				
+2	Visac_Sequencer				
+2	Chris_Walsh				
+2	Silas_Warner_Digi				
+2	Silas_Warner		Silas S. Warner		
+2	Mr_Wedge				
+2	Martin_Wheeler				
+2	X-Byte				
+2	Ola_Zandelin				
+2	Zeta_Digi				
+2	Zmolk				
+1	128bytes_tiny				
+1	DefleMask_v1		Leonardo Demartino (Delek)	2013	
+1	(Kris_Hatlelid_Digi)				
+1	Censored_Editor		Kenneth Mutka (Slaygon)	1990 Censor Design	https://csdb.dk/release/?id=91724
+1	Loadstar_SongSmith_v2				
+1	Georg_Brandt_Digi				
+1	?Programming_Partners	The Programming Partnership			
+1	?Activision_1				
+1	(Frank_Tout_V2)				
+1	Tamas_Revbiro				
+1	Johnny_Klonaris				
+1	?Summergames/Epyx				
+1	256bytes/Agemixer				
+1	Soft_Tune_Composer		Melih Küçükçalik	1989	https://csdb.dk/release/?id=101769
+1	Pretzel/C64Composer	C64 Composer	Fredrik Blom (Coq Rouge)	1989 Pretzel Logic	https://csdb.dk/release/?id=27453
+1	GoatTracker_V2/Mini		Lasse Öörni (Cadaver)	2018 Covert Bitops	
+1	GoatTracker_V2/Mini2		Lasse Öörni (Cadaver)	2021 Covert Bitops	
+1	Conrad/Samar		Owen Crowley (Conrad)		
+1	SoftwareAutomaticMouth			1983 Don't Ask Computer Software	https://csdb.dk/release/?id=42843
+1	Daglish/Gremlin_SFX				
+1	SidStep2				
+1	256bytes/AEB				
+1	Geir_Tjelta/MacroPlay1	Macro Player	Geir Tjelta	2009	https://csdb.dk/release/?id=76493
+1	TheTracker/Hitmen		Groepaz	1998 Hitmen	https://csdb.dk/release/?id=3385
+1	Crunched:PUCrunch				
+1	Kawasaki_Rhythm_Rocker				
+1	Censor_8bit_Digi_2		Fredrik Ternell (Swallow)		
+1	Mat/MDA_Digi		Matthias Hillebrand of Modern Arts		
+1	Rayden_Digi_V2		Patrick Zeh (Rayden)		
+1	Daryll_Reynolds_Digi				
+1	(XTracker_V4.2x)				
+1	Dave_Spicer_V15				
+1	256bytes/Tape				
+1	Geir_Tjelta/MacroPlay2	Macro Player	Geir Tjelta	2009	
+1	(Rob_Hubbard_Digi)		Rob Hubbard		
+1	DrumStudio	Drum Studio	Mark Wilson	1990 Players Software	https://csdb.dk/release/?id=59864
+1	WizPlayer_1.0		Piotr Kuciapski (Wizard)		
+1	256bytes/Wyndex				
