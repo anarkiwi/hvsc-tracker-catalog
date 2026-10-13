@@ -1,0 +1,16 @@
+[project]
+name = "hvsc-tracker-catalog"
+version = "0.2.0"
+description = "Catalog of the playroutines behind HVSC tunes and where their source can be read"
+license = "Apache-2.0"
+requires-python = ">=3.11"
+dependencies = ["pysidtracker[survey]>=0.11.1"]
+
+[project.optional-dependencies]
+dev = ["black", "pylint", "pytest", "pytest-cov", "pytest-xdist"]
+
+[tool.setuptools]
+py-modules = ["catalog"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=catalog --cov-fail-under=85"

@@ -1,136 +1,129 @@
-# HVSC Tracker / Playroutine Survey — First Pass
+# HVSC Tracker / Playroutine Catalog
 
-Scanned **60,572** `.sid` files in the High Voltage SID Collection (`/scratch/preframr/hvsc/C64Music`) by reimplementing Cadaver's **SIDId** byte-signature matcher in Python (`scan.py`) against the `sidid.cfg` database (1,720 player signatures).
+- Scanned: 61,157 `.sid` files
+- Identified: 59,829 (97.8%)
+- Unidentified: 1,328 (2.2%)
+- Distinct players: 647
 
-## Identification results
+Tunes are attributed to the first matching player in `sidid.cfg` order (`pysidtracker.sidid`). Full table: `data/catalog_sources.tsv`.
 
-- **Identified:** 59,267 tunes (97.8%)
-- **Unidentified (set aside):** 1,305 (2.2%)
-- **Distinct players/trackers detected:** 644
-- Per-file mapping: `results.csv`; full metadata join: `catalog_sources.tsv`
+## A. Trackers/editors with examinable source code
 
-> Tunes are attributed by *first-match in sidid.cfg order* (the SIDId convention). Counts are how many HVSC tunes use each player.
+26 players, 15,930 tunes.
 
-## A. Trackers/editors with examinable SOURCE CODE
+| Tunes | Player (sidid id) | Author | Source | Notes | Reference |
+|---:|---|---|---|---|---|
+| 7797 | `GoatTracker_V2.x` | Lasse Öörni (Cadaver) | [sourceforge](https://sourceforge.net/projects/goattracker2/) | C + 6502 asm — Official (Cadaver/Covert Bitops), GPLv2, maintained. .sng read/write in Python via ChiptuneSAK. | [ref](https://csdb.dk/release/?id=18308) |
+| 4093 | `MoN/FutureComposer` | Charles Deenen made the player & Juha Granberg (FCS) made the editor | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players) | 6502 asm (ACME) — Editor is binary-only (csdb id=10604); repo has RE source for the underlying Deenen MON driver. | [ref](https://csdb.dk/release/?id=10604) |
+| 1387 | `GoatTracker_V1.x` | Lasse Öörni (Cadaver) | [sourceforge](https://sourceforge.net/projects/goattracker2/) | C + 6502 asm — Same SF project (v1 history). | [ref](https://csdb.dk/release/?id=152697) |
+| 1126 | `Hermit/SidWizard_V1.x` | Mihály Horváth (Hermit) | [sourceforge](https://sourceforge.net/projects/sid-wizard/) | 6502 asm (64tass) + C — Source in SF release zips. Fork w/ source: github.com/anarkiwi/sid-wizard. Python port: pysidwizard. | — |
+| 428 | `SidFactory_II/Laxity` | Thomas Egeskov Petersen (Laxity) | [git-repo](https://github.com/Chordian/sidfactory2) | C++ (reSID) + 6502 asm — Official repo (Laxity/JCH/Chordian), actively maintained. | [ref](https://csdb.dk/release/?id=210571) |
+| 308 | `CheeseCutter_2.x` | Timo Taipalus (Abaddon) | [git-repo](https://github.com/theyamo/CheeseCutter) | D + ACME 6502 asm — Official repo (Abaddon/theyamo), GPL. | [ref](https://csdb.dk/release/?id=106959) |
+| 163 | `OdinTracker` | Zoltán Konyha (Zed) | [author-site](https://www.zimmers.net/anonftp/pub/cbm/c64/audio/editors/OdinTracker113src.zip) | 6502 asm — Full source zip (Zed, 2001) on zimmers CBM archive. | [ref](https://csdb.dk/release/?id=12577) |
+| 140 | `MoN/Deenen` | Charles Deenen | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players) | 6502 asm (ACME) — RE source: Deenen_Charles_MON. | — |
+| 118 | `SidWinder` | Balázs Takács (Taki) | [author-site](https://www.zimmers.net/anonftp/pub/cbm/c64/audio/editors/SIDwinder_V0123_src.zip) | 6502 asm — V01.23 source; Taki, reconstructed by Levente Harsfalvi. | [ref](https://csdb.dk/release/?id=66494) |
+| 106 | `DefMon` | Mats (Frantic of Hack'n'Trade) | [binary-only](https://defmon.vandervecken.com/) | 6502 asm (.d64) — Tool ships compiled only. Python driver: github.com/anarkiwi/defmon-driver (PyPI defmon-driver). | [ref](https://csdb.dk/release/?id=120965) |
+| 98 | `NinjaTracker_V2.x` | Lasse Öörni (Cadaver) | [author-site](https://cadaver.github.io/tools.html) | 6502 asm (DASM) — Release zip bundles full editor+player /src. | [ref](https://csdb.dk/release/?id=39374) |
+| 32 | `Sidbang64_2/Warp8` | Sebastian Abel (Warp8) | [git-repo](https://github.com/SebastianAbel/sidbang64) | Rust + 6502 asm — Same repo. | — |
+| 27 | `Hermit/1RasterTracker` | Mihály Horváth (Hermit) | [author-site](https://hermit.sidrip.com/) | 6502 asm — Hermit's site hosts source. | [ref](https://csdb.dk/release/?id=117935) |
+| 26 | `Sidbang64_1/Warp8` | Sebastian Abel (Warp8) | [git-repo](https://github.com/SebastianAbel/sidbang64) | Rust + 6502 asm — GPL-3.0; Rust host + C64 replayer. | [ref](https://csdb.dk/release/?id=199203) |
+| 21 | `SadoTracker` | Lasse Öörni (Cadaver) | [author-site](https://cadaver.github.io/tools.html) | 6502 asm — Source distributed in release zip. | [ref](https://csdb.dk/release/?id=72773) |
+| 18 | `NinjaTracker_V1.x` | Lasse Öörni (Cadaver) | [author-site](https://cadaver.github.io/tools.html) | 6502 asm (DASM) — Source in release zip. | [ref](https://csdb.dk/release/?id=7206) |
+| 15 | `Hermit/FlexSID` | Mihály Horváth (Hermit) | [author-site](https://hermit.sidrip.com/) | C — Built on Hermit's cRSID C library. | [ref](https://csdb.dk/release/?id=214694) |
+| 5 | `JITT64_1.x` | Stefano Tognon (Ice00) | [sourceforge](https://sourceforge.net/p/jitt64/code/) | Java — Active SVN repo (Ice00), GPLv2. | [ref](https://csdb.dk/release/?id=74136) |
+| 4 | `FurC64` | AnnoyedArt1256 | [git-repo](https://github.com/AnnoyedArt1256/furC64) | Python + 6502 asm — SID driver/converter for Furnace tracker (WIP). | [ref](https://github.com/AnnoyedArt1256/furC64) |
+| 4 | Cross Platform Music Compiler Kit (`XPMCK`) | Mic | [git-repo](https://github.com/mic-/xpmck) | Euphoria/Eiffel + 6502/Z80 asm — Cross-platform music compiler kit (Mic). | [ref](https://csdb.dk/release/?id=135624) |
+| 3 | `Hermit/FlexSID-Bare` | Mihály Horváth (Hermit) | [author-site](https://hermit.sidrip.com/) | C — Built on cRSID. | [ref](https://csdb.dk/release/?id=214694) |
+| 3 | `8bitDigi/Mahoney` | Pex Tufvesson (Mahoney) | [author-site](https://livet.se/mahoney/) | 6502 asm + MATLAB — 8-bit DAC measurement program source + volume-table script. | — |
+| 3 | `Microtracker` | Matthias Hartung (The Syndrom) | [codebase64](https://codebase64.net/doku.php?id=base:microtracker_v1.0) | 6502 asm (KickAssembler) — Full player source (author-reconstructed). | [ref](https://codebase64.org/doku.php?id=base:microtracker_v1.0) |
+| 3 | `Zirias` | Felix Palmen (Zirias) | [git-repo](https://github.com/Zirias/c64_basicmusic) | 6502 asm + BASIC + C — BASIC music extension w/ custom playroutine (Felix Palmen). | — |
+| 1 | `GoatTracker_V2/Mini` | Lasse Öörni (Cadaver) | [git-repo](https://github.com/cadaver/miniplayer) | C + 6502 asm — Cut-down playroutine + gt2->mini converter. | — |
+| 1 | `GoatTracker_V2/Mini2` | Lasse Öörni (Cadaver) | [git-repo](https://github.com/cadaver/miniplayer2) | C + 6502 asm — Updated mini playroutine. | — |
 
-These cover **15,567 tunes**. This is the primary deliverable for the first pass.
+## B. Per-composer playroutines with reverse-engineered source
 
-| Tunes | Tracker (sidid id) | Author | Source | Type / Lang |
-|---:|---|---|---|---|
-| 7550 | GoatTracker_V2.x (`GoatTracker_V2.x`) | Lasse Öörni (Cadaver) | [sourceforge](https://sourceforge.net/projects/goattracker2/) | C + 6502 asm — Official (Cadaver/Covert Bitops), GPLv2, maintained. .sng read/write in Python via ChiptuneSAK. |
-| 4085 | MoN/FutureComposer (`MoN/FutureComposer`) | Charles Deenen made the player & Juha Granberg (FCS) made the editor | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players) | 6502 asm (ACME) — Editor is binary-only (csdb id=10604); repo has RE source for the underlying Deenen MON driver. |
-| 1384 | GoatTracker_V1.x (`GoatTracker_V1.x`) | Lasse Öörni (Cadaver) | [sourceforge](https://sourceforge.net/projects/goattracker2/) | C + 6502 asm — Same SF project (v1 history). |
-| 1074 | Hermit/SidWizard_V1.x (`Hermit/SidWizard_V1.x`) | Mihály Horváth (Hermit) | [sourceforge](https://sourceforge.net/projects/sid-wizard/) | 6502 asm (64tass) + C — Source in SF release zips. Fork w/ source: github.com/anarkiwi/sid-wizard. Python port: pysidwizard. |
-| 380 | SidFactory_II/Laxity (`SidFactory_II/Laxity`) | Thomas Egeskov Petersen (Laxity) | [git-repo](https://github.com/Chordian/sidfactory2) | C++ (reSID) + 6502 asm — Official repo (Laxity/JCH/Chordian), actively maintained. |
-| 306 | CheeseCutter_2.x (`CheeseCutter_2.x`) | Timo Taipalus (Abaddon) | [git-repo](https://github.com/theyamo/CheeseCutter) | D + ACME 6502 asm — Official repo (Abaddon/theyamo), GPL. |
-| 163 | OdinTracker (`OdinTracker`) | Zoltán Konyha (Zed) | [author-site](https://www.zimmers.net/anonftp/pub/cbm/c64/audio/editors/OdinTracker113src.zip) | 6502 asm — Full source zip (Zed, 2001) on zimmers CBM archive. |
-| 140 | MoN/Deenen (`MoN/Deenen`) | Charles Deenen | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players) | 6502 asm (ACME) — RE source: Deenen_Charles_MON. |
-| 117 | SidWinder (`SidWinder`) | Balázs Takács (Taki) | [author-site](https://www.zimmers.net/anonftp/pub/cbm/c64/audio/editors/SIDwinder_V0123_src.zip) | 6502 asm — V01.23 source; Taki, reconstructed by Levente Harsfalvi. |
-| 107 | DefMon (`DefMon`) | Mats (Frantic of Hack'n'Trade) | [binary-only](https://defmon.vandervecken.com/) | 6502 asm (.d64) — Tool ships compiled only. Python driver: github.com/anarkiwi/defmon-driver (PyPI defmon-driver). |
-| 97 | NinjaTracker_V2.x (`NinjaTracker_V2.x`) | Lasse Öörni (Cadaver) | [author-site](https://cadaver.github.io/tools.html) | 6502 asm (DASM) — Release zip bundles full editor+player /src. |
-| 31 | Sidbang64_2/Warp8 (`Sidbang64_2/Warp8`) | Sebastian Abel (Warp8) | [git-repo](https://github.com/SebastianAbel/sidbang64) | Rust + 6502 asm — Same repo. |
-| 27 | Hermit/1RasterTracker (`Hermit/1RasterTracker`) | Mihály Horváth (Hermit) | [author-site](https://hermit.sidrip.com/) | 6502 asm — Hermit's site hosts source. |
-| 26 | Sidbang64_1/Warp8 (`Sidbang64_1/Warp8`) | Sebastian Abel (Warp8) | [git-repo](https://github.com/SebastianAbel/sidbang64) | Rust + 6502 asm — GPL-3.0; Rust host + C64 replayer. |
-| 21 | SadoTracker (`SadoTracker`) | Lasse Öörni (Cadaver) | [author-site](https://cadaver.github.io/tools.html) | 6502 asm — Source distributed in release zip. |
-| 18 | NinjaTracker_V1.x (`NinjaTracker_V1.x`) | Lasse Öörni (Cadaver) | [author-site](https://cadaver.github.io/tools.html) | 6502 asm (DASM) — Source in release zip. |
-| 14 | Hermit/FlexSID (`Hermit/FlexSID`) | Mihály Horváth (Hermit) | [author-site](https://hermit.sidrip.com/) | C — Built on Hermit's cRSID C library. |
-| 5 | JITT64_1.x (`JITT64_1.x`) | Stefano Tognon (Ice00) | [sourceforge](https://sourceforge.net/p/jitt64/code/) | Java — Active SVN repo (Ice00), GPLv2. |
-| 4 | FurC64 (`FurC64`) | AnnoyedArt1256 | [git-repo](https://github.com/AnnoyedArt1256/furC64) | Python + 6502 asm — SID driver/converter for Furnace tracker (WIP). |
-| 4 | Cross Platform Music Compiler Kit (`XPMCK`) | Mic | [git-repo](https://github.com/mic-/xpmck) | Euphoria/Eiffel + 6502/Z80 asm — Cross-platform music compiler kit (Mic). |
-| 3 | Hermit/FlexSID-Bare (`Hermit/FlexSID-Bare`) | Mihály Horváth (Hermit) | [author-site](https://hermit.sidrip.com/) | C — Built on cRSID. |
-| 3 | 8bitDigi/Mahoney (`8bitDigi/Mahoney`) | Pex Tufvesson (Mahoney) | [author-site](https://livet.se/mahoney/) | 6502 asm + MATLAB — 8-bit DAC measurement program source + volume-table script. |
-| 3 | Microtracker (`Microtracker`) | Matthias Hartung (The Syndrom) | [codebase64](https://codebase64.net/doku.php?id=base:microtracker_v1.0) | 6502 asm (KickAssembler) — Full player source (author-reconstructed). |
-| 3 | Zirias (`Zirias`) | Felix Palmen (Zirias) | [git-repo](https://github.com/Zirias/c64_basicmusic) | 6502 asm + BASIC + C — BASIC music extension w/ custom playroutine (Felix Palmen). |
-| 1 | GoatTracker_V2/Mini (`GoatTracker_V2/Mini`) | Lasse Öörni (Cadaver) | [git-repo](https://github.com/cadaver/miniplayer) | C + 6502 asm — Cut-down playroutine + gt2->mini converter. |
-| 1 | GoatTracker_V2/Mini2 (`GoatTracker_V2/Mini2`) | Lasse Öörni (Cadaver) | [git-repo](https://github.com/cadaver/miniplayer2) | C + 6502 asm — Updated mini playroutine. |
+10 players, 922 tunes.
 
-## B. Bespoke per-composer playroutines — reverse-engineered source
-
-Not reusable trackers: individual composers' hand-written drivers. Reverse-engineered ACME source for many of these is collected in **[realdmx/c64_6581_sid_players](https://github.com/realdmx/c64_6581_sid_players)** (also covers MON-family, Fred Gray, Matt Gray, Jeroen Tel, Reyn Ouwehand, Jonathan Dunn).
-
-| Tunes | Composer (sidid id) | RE source folder |
-|---:|---|---|
-| 289 | Rob Hubbard (`Rob_Hubbard`) | [Hubbard_Rob](https://github.com/realdmx/c64_6581_sid_players/tree/master/Hubbard_Rob) |
-| 117 | David_Whittaker (`David_Whittaker`) | [Whittaker_David](https://github.com/realdmx/c64_6581_sid_players/tree/master/Whittaker_David) |
-| 99 | François Prijt (`Audial_Arts`) | [Audial_Arts](https://github.com/realdmx/c64_6581_sid_players/tree/master/Audial_Arts) |
-| 78 | Johannes Bjerregaard (`MoN/Bjerregaard`) | [Bjerregaard_Johannes_MON](https://github.com/realdmx/c64_6581_sid_players/tree/master/Bjerregaard_Johannes_MON) |
-| 74 | Matt Gray (`Matt_Gray`) | [Gray_Matt](https://github.com/realdmx/c64_6581_sid_players/tree/master/Gray_Matt) |
-| 67 | Johannes Bjerregaard (`Bjerregaard`) | [Bjerregaard_Johannes_MON](https://github.com/realdmx/c64_6581_sid_players/tree/master/Bjerregaard_Johannes_MON) |
-| 55 | Martin Galway (`Martin_Galway`) | [Galway Martin](https://github.com/realdmx/c64_6581_sid_players/tree/master/Galway%20Martin) |
-| 54 | Fred_Gray (`Fred_Gray`) | [Gray_Fred](https://github.com/realdmx/c64_6581_sid_players/tree/master/Gray_Fred) |
-| 54 | Adam Bulka (`FAME`) | [Bulka_Adam_FAME](https://github.com/realdmx/c64_6581_sid_players/tree/master/Bulka_Adam_FAME) |
-| 35 | Jeroen_Kimmel (`Jeroen_Kimmel`) | [Kimmel_Jeroen](https://github.com/realdmx/c64_6581_sid_players/tree/master/Kimmel_Jeroen) |
+| Tunes | Player (sidid id) | Author | Source | Notes | Reference |
+|---:|---|---|---|---|---|
+| 289 | `Rob_Hubbard` | Rob Hubbard | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players/tree/master/Hubbard_Rob) | 6502 asm (ACME) — RE driver source by composer | — |
+| 117 | `David_Whittaker` |  | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players/tree/master/Whittaker_David) | 6502 asm (ACME) — RE driver source by composer | — |
+| 99 | Zong Player (`Audial_Arts`) | François Prijt | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players/tree/master/Audial_Arts) | 6502 asm (ACME) — RE driver source by composer | — |
+| 78 | `MoN/Bjerregaard` | Johannes Bjerregaard | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players/tree/master/Bjerregaard_Johannes_MON) | 6502 asm (ACME) — RE driver source by composer | — |
+| 74 | `Matt_Gray` | Matt Gray | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players/tree/master/Gray_Matt) | 6502 asm (ACME) — RE driver source by composer | — |
+| 67 | `Bjerregaard` | Johannes Bjerregaard | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players/tree/master/Bjerregaard_Johannes_MON) | 6502 asm (ACME) — RE driver source by composer | — |
+| 55 | `Martin_Galway` | Martin Galway | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players/tree/master/Galway%20Martin) | 6502 asm (ACME) — RE driver source by composer | — |
+| 54 | `Fred_Gray` |  | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players/tree/master/Gray_Fred) | 6502 asm (ACME) — RE driver source by composer | — |
+| 54 | `FAME` | Adam Bulka | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players/tree/master/Bulka_Adam_FAME) | 6502 asm (ACME) — RE driver source by composer | — |
+| 35 | `Jeroen_Kimmel` |  | [git-repo (reverse-eng)](https://github.com/realdmx/c64_6581_sid_players/tree/master/Kimmel_Jeroen) | 6502 asm (ACME) — RE driver source by composer | — |
 
 ## C. Source published as magazine / book listings
 
-| Tunes | Tracker (`id`) | Where the source is printed |
-|---:|---|---|
-| 3663 | Soundmonitor (`Soundmonitor`) | 64'er magazine, Oct 1986 type-in listing (binary at csdb id=59929 / archive.org) |
-| 14 | Sidplayer (`Sidplayer`) | Book 'All About the Commodore 64, Vol.2' (1985) — full type-in listing; scan at archive.org |
+2 players, 3,696 tunes.
 
-## D. Commercial / closed-source (no public source)
+| Tunes | Player (sidid id) | Author | Source | Notes | Reference |
+|---:|---|---|---|---|---|
+| 3682 | `Soundmonitor` | Chris Hülsbeck | magazine-listing | 64'er magazine, Oct 1986 type-in listing (binary at csdb id=59929 / archive.org) | [ref](https://csdb.dk/release/?id=59929) |
+| 14 | `Sidplayer` | Craig Chamberlain | magazine-listing | Book 'All About the Commodore 64, Vol.2' (1985) — full type-in listing; scan at archive.org | [ref](https://csdb.dk/release/?id=33248) |
 
-| Tunes | Tracker (`id`) | Author | Status |
-|---:|---|---|---|
-| 264 | SidTracker64 (`SidTracker64`) | Daniel Larsson (Pernod) | proprietary |
-| 245 | DefleMask_v12 (`DefleMask_v12`) | Leonardo Demartino (Delek) | proprietary |
-| 72 | DefleMask_v2 (`DefleMask_v2`) | Leonardo Demartino (Delek) | proprietary |
-| 42 | Mssiah (`Mssiah`) |  | proprietary |
-| 4 | Prophet64 (`Prophet64`) |  | proprietary |
-| 1 | DefleMask_v1 (`DefleMask_v1`) | Leonardo Demartino (Delek) | proprietary |
+## D. Commercial / closed source
 
-## E. Binary-only (no source found) — top 40 by tune count
+6 players, 642 tunes.
 
-Identified tools whose source is not public; the `reference` is a csdb.dk *release* page (binary/disk), the best examinable artifact short of disassembly. Full list in `catalog_sources.tsv`.
+| Tunes | Player (sidid id) | Author | Source | Notes | Reference |
+|---:|---|---|---|---|---|
+| 266 | `SidTracker64` | Daniel Larsson (Pernod) | commercial-closed | proprietary, no public source | — |
+| 257 | `DefleMask_v12` | Leonardo Demartino (Delek) | commercial-closed | proprietary, no public source | [ref](https://www.deflemask.com/) |
+| 72 | `DefleMask_v2` | Leonardo Demartino (Delek) | commercial-closed | proprietary, no public source | [ref](https://csdb.dk/release/?id=118363) |
+| 42 | `Mssiah` |  | commercial-closed | proprietary, no public source | — |
+| 4 | `Prophet64` |  | commercial-closed | proprietary, no public source | — |
+| 1 | `DefleMask_v1` | Leonardo Demartino (Delek) | commercial-closed | proprietary, no public source | — |
 
-| Tunes | Tracker (`id`) | Author | Reference (binary) |
-|---:|---|---|---|
-| 10738 | Demo Music Creator System (DMC) (`DMC`) | Balazs Farkas (Brian) | [csdb](https://csdb.dk/release/?id=2598) |
-| 6403 | Music_Assembler (`Music_Assembler`) | Marco Swagerman (MC) & Oscar Giesen (OPM) | [csdb](https://csdb.dk/release/?id=94388) |
-| 3678 | JCH_NewPlayer (`JCH_NewPlayer`) | Jens-Christian Huus (JCH) | [csdb](https://csdb.dk/release/?id=14037) |
-| 1170 | HardTrack_Composer (`HardTrack_Composer`) | Milosz Ignatowski (Longhair) | [csdb](https://csdb.dk/release/?id=74928) |
-| 1075 | Master Composer (`Master_Composer`) | Paul Kleimeyer | [csdb](https://csdb.dk/release/?id=128699) |
-| 994 | SID Duzz'It (SDI) (`Geir_Tjelta/SIDDuzz'It`) | Geir Tjelta & Glenn Rune Gallefoss (GRG) | [csdb](https://csdb.dk/release/?id=7175) |
-| 950 | SoedeSoft (`SoedeSoft`) | Jeroen Soede & Michiel Soede | [csdb](https://csdb.dk/release/?id=117095) |
-| 680 | Digitalizer_V2.x (`Digitalizer_V2.x`) | Olav Mørkrid | [csdb](https://csdb.dk/release/?id=33646) |
-| 593 | RoMuzak_V6.x (`RoMuzak_V6.x`) | Oliver Blasnik (ROM) | [csdb](https://csdb.dk/release/?id=17814) |
-| 522 | Basic_Program (`Basic_Program`) |  | — |
-| 446 | Game Music Creator System (`GMC/Superiors`) | Balazs Farkas (Brian) | [csdb](https://csdb.dk/release/?id=7268) |
-| 387 | X-Ample (`X-Ample`) |  | — |
-| 314 | Songsmith (`Loadstar_SongSmith`) |  | [csdb](https://csdb.dk/release/?id=122855) |
-| 314 | Laxity_NewPlayer_V21 (`Laxity_NewPlayer_V21`) | Thomas Egeskov Petersen (Laxity) | [csdb](https://csdb.dk/release/?id=26563) |
-| 301 | Electrosound (`Electrosound`) |  | [csdb](https://csdb.dk/release/?id=27433) |
-| 293 | Ubik's Musik (`Ubik's_Musik`) | Dave Korn (Ubik) | [csdb](https://csdb.dk/release/?id=39950) |
-| 269 | TFX (`TFX`) | Ray | [csdb](https://csdb.dk/release/?id=110111) |
-| 246 | Advanced Music Programmer (`AMP`) | Andrew Miller (Burton) | [csdb](https://csdb.dk/release/?id=35519) |
-| 245 | 20CC (`20CC`) | Falco Paul | [csdb](https://csdb.dk/release/?id=10741) |
-| 197 | EMS/Odie (`EMS/Odie`) | Sean Connolly (Odie) | — |
-| 197 | Cyberlogic Sound Studio (`Cyberlogic_SoundStudio`) | Oliver Klee & Sascha Nagie | [csdb](https://csdb.dk/release/?id=170632) |
-| 192 | Music Editor (`Jeff`) | Søren Lund (Jeff) | [csdb](https://csdb.dk/release/?id=122334) |
-| 184 | John_Player (`John_Player`) | Aleksi Eeben | — |
-| 182 | The Music Shop (`MusicShop`) | Don Williams | [csdb](https://csdb.dk/release/?id=82453) |
-| 179 | LAXITY editor (`Vibrants/Laxity`) | Thomas Egeskov Petersen (Laxity) | [csdb](https://csdb.dk/release/?id=122333) |
-| 148 | Ariston (`Ariston`) | Ian Crabtree | — |
-| 137 | Reflextracker (`Reflextracker`) | Tammo Hinrichs (kb) & Matthias Kramm (Quiss) & Zorc | [csdb](https://csdb.dk/release/?id=43348) |
-| 134 | LordsOfSonics/MS (`LordsOfSonics/MS`) | Markus Schneider | — |
-| 131 | Prosonix Music Editor (`Prosonix`) | Stein Pedersen | [csdb](https://csdb.dk/release/?id=179618) |
-| 130 | CyberTracker_exe (`CyberTracker_exe`) |  | [csdb](https://csdb.dk/release/?id=6663) |
-| 130 | Vibrants/JO (`Vibrants/JO`) | Poul-Jesper Olsen (JO) | — |
-| 128 | CyberTracker (`CyberTracker`) | Bjarke Nørgaard Laustsen (CyberBrain) | [csdb](https://csdb.dk/release/?id=2601) |
-| 108 | SYNdrom Composer (`SynC`) | Matthias Hartung (The Syndrom) | [csdb](https://csdb.dk/release/?id=7850) |
-| 104 | System6581 (`System6581`) | Fredrik Hederstierna (Zizyphus) | [csdb](https://csdb.dk/release/?id=27434) |
-| 102 | Speedi System (`Michael_Winterberg`) | Michael Winterberg | — |
-| 102 | Walt/Bonzai (`Walt/Bonzai`) | Anders Fogh (Walt) | [csdb](https://csdb.dk/release/?id=12580) |
-| 99 | Chubrocker_V3.x (`Chubrocker_V3.x`) | László Benke (Dec) | [csdb](https://csdb.dk/release/?id=114185) |
-| 94 | JCH_Protracker (`JCH_Protracker`) | Jens-Christian Huus (JCH) | — |
-| 94 | TBB/SideB (`TBB/SideB`) | Tero Hilpinen (TBB) | — |
-| 92 | Sosperec (`Sosperec`) | Gabor Torday (Grabowsky) | [csdb](https://csdb.dk/release/?id=18233) |
+## E. Binary-only (no source found), top 40 by tune count
 
-_…and 560 more binary-only entries in `catalog_sources.tsv`._
+603 players, 38,639 tunes.
 
-## Methodology & caveats
+| Tunes | Player (sidid id) | Author | Source | Notes | Reference |
+|---:|---|---|---|---|---|
+| 10758 | Demo Music Creator System (DMC) (`DMC`) | Balazs Farkas (Brian) | — |  | [ref](https://csdb.dk/release/?id=2598) |
+| 6462 | `Music_Assembler` | Marco Swagerman (MC) & Oscar Giesen (OPM) | — |  | [ref](https://csdb.dk/release/?id=94388) |
+| 3687 | `JCH_NewPlayer` | Jens-Christian Huus (JCH) | — |  | [ref](https://csdb.dk/release/?id=14037) |
+| 1170 | `HardTrack_Composer` | Milosz Ignatowski (Longhair) | — |  | [ref](https://csdb.dk/release/?id=74928) |
+| 1078 | Master Composer (`Master_Composer`) | Paul Kleimeyer | — |  | [ref](https://csdb.dk/release/?id=128699) |
+| 1000 | SID Duzz'It (SDI) (`Geir_Tjelta/SIDDuzz'It`) | Geir Tjelta & Glenn Rune Gallefoss (GRG) | — |  | [ref](https://csdb.dk/release/?id=7175) |
+| 951 | `SoedeSoft` | Jeroen Soede & Michiel Soede | — |  | [ref](https://csdb.dk/release/?id=117095) |
+| 680 | `Digitalizer_V2.x` | Olav Mørkrid | — |  | [ref](https://csdb.dk/release/?id=33646) |
+| 593 | `RoMuzak_V6.x` | Oliver Blasnik (ROM) | — |  | [ref](https://csdb.dk/release/?id=17814) |
+| 524 | `Basic_Program` |  | — |  | — |
+| 448 | Game Music Creator System (`GMC/Superiors`) | Balazs Farkas (Brian) | — |  | [ref](https://csdb.dk/release/?id=7268) |
+| 387 | `X-Ample` |  | — |  | — |
+| 322 | `Laxity_NewPlayer_V21` | Thomas Egeskov Petersen (Laxity) | — |  | [ref](https://csdb.dk/release/?id=26563) |
+| 314 | Songsmith (`Loadstar_SongSmith`) |  | — |  | [ref](https://csdb.dk/release/?id=122855) |
+| 301 | `Electrosound` |  | — |  | [ref](https://csdb.dk/release/?id=27433) |
+| 293 | Ubik's Musik (`Ubik's_Musik`) | Dave Korn (Ubik) | — |  | [ref](https://csdb.dk/release/?id=39950) |
+| 270 | `TFX` | Ray | — |  | [ref](https://csdb.dk/release/?id=110111) |
+| 246 | Advanced Music Programmer (`AMP`) | Andrew Miller (Burton) | — |  | [ref](https://csdb.dk/release/?id=35519) |
+| 246 | `20CC` | Falco Paul | — |  | [ref](https://csdb.dk/release/?id=10741) |
+| 199 | `EMS/Odie` | Sean Connolly (Odie) | — |  | — |
+| 197 | Cyberlogic Sound Studio (`Cyberlogic_SoundStudio`) | Oliver Klee & Sascha Nagie | — |  | [ref](https://csdb.dk/release/?id=170632) |
+| 192 | Music Editor (`Jeff`) | Søren Lund (Jeff) | — |  | [ref](https://csdb.dk/release/?id=122334) |
+| 186 | `John_Player` | Aleksi Eeben | — |  | — |
+| 184 | The Music Shop (`MusicShop`) | Don Williams | — |  | [ref](https://csdb.dk/release/?id=82453) |
+| 179 | LAXITY editor (`Vibrants/Laxity`) | Thomas Egeskov Petersen (Laxity) | — |  | [ref](https://csdb.dk/release/?id=122333) |
+| 148 | `Ariston` | Ian Crabtree | — |  | — |
+| 137 | `Reflextracker` | Tammo Hinrichs (kb) & Matthias Kramm (Quiss) & Zorc | — |  | [ref](https://csdb.dk/release/?id=43348) |
+| 134 | `LordsOfSonics/MS` | Markus Schneider | — |  | — |
+| 132 | `Vibrants/JO` | Poul-Jesper Olsen (JO) | — |  | — |
+| 131 | Prosonix Music Editor (`Prosonix`) | Stein Pedersen | — |  | [ref](https://csdb.dk/release/?id=179618) |
+| 130 | `CyberTracker_exe` |  | — |  | [ref](https://csdb.dk/release/?id=6663) |
+| 128 | `CyberTracker` | Bjarke Nørgaard Laustsen (CyberBrain) | — |  | [ref](https://csdb.dk/release/?id=2601) |
+| 108 | SYNdrom Composer (`SynC`) | Matthias Hartung (The Syndrom) | — |  | [ref](https://csdb.dk/release/?id=7850) |
+| 104 | `System6581` | Fredrik Hederstierna (Zizyphus) | — |  | [ref](https://csdb.dk/release/?id=27434) |
+| 102 | Speedi System (`Michael_Winterberg`) | Michael Winterberg | — |  | — |
+| 102 | `Walt/Bonzai` | Anders Fogh (Walt) | — |  | [ref](https://csdb.dk/release/?id=12580) |
+| 99 | `Chubrocker_V3.x` | László Benke (Dec) | — |  | [ref](https://csdb.dk/release/?id=114185) |
+| 96 | `TBB/SideB` | Tero Hilpinen (TBB) | — |  | — |
+| 94 | `JCH_Protracker` | Jens-Christian Huus (JCH) | — |  | — |
+| 92 | `Sosperec` | Gabor Torday (Grabowsky) | — |  | [ref](https://csdb.dk/release/?id=18233) |
 
-- `scan.py` replicates `sidid.c` matching (byte→literal, `??`→any byte, `AND`→gap) as bytes-regex with `re.DOTALL`, first-match in cfg order, over the whole file buffer.
-- Signature DB + authorship notes: `cadaver/sidid` (`sidid.cfg`, `sidid.nfo`); an equivalent DB exists in `WilfredC64/player-id`.
-- ~2.2% unidentified — newer/rare/custom routines not yet in the signature DB; deferred per instructions.
-- The cloned `sidid`/`player-id` binaries were not executed (build sandbox); identification is from the Python reimplementation.
+563 more in `data/catalog_sources.tsv`.
