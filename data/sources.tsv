@@ -1,0 +1,45 @@
+player_id	category	source_url	source_type	language	note
+GoatTracker_V2.x	source	https://sourceforge.net/projects/goattracker2/	sourceforge	C + 6502 asm	Official (Cadaver/Covert Bitops), GPLv2, maintained. .sng read/write in Python via ChiptuneSAK.
+GoatTracker_V1.x	source	https://sourceforge.net/projects/goattracker2/	sourceforge	C + 6502 asm	Same SF project (v1 history).
+GoatTracker_V2/Mini	source	https://github.com/cadaver/miniplayer	git-repo	C + 6502 asm	Cut-down playroutine + gt2->mini converter.
+GoatTracker_V2/Mini2	source	https://github.com/cadaver/miniplayer2	git-repo	C + 6502 asm	Updated mini playroutine.
+Hermit/SidWizard_V1.x	source	https://sourceforge.net/projects/sid-wizard/	sourceforge	6502 asm (64tass) + C	Source in SF release zips. Fork w/ source: github.com/anarkiwi/sid-wizard. Python port: pysidwizard.
+Hermit/1RasterTracker	source	https://hermit.sidrip.com/	author-site	6502 asm	Hermit's site hosts source.
+Hermit/FlexSID	source	https://hermit.sidrip.com/	author-site	C	Built on Hermit's cRSID C library.
+Hermit/FlexSID-Bare	source	https://hermit.sidrip.com/	author-site	C	Built on cRSID.
+CheeseCutter_2.x	source	https://github.com/theyamo/CheeseCutter	git-repo	D + ACME 6502 asm	Official repo (Abaddon/theyamo), GPL.
+SidFactory_II/Laxity	source	https://github.com/Chordian/sidfactory2	git-repo	C++ (reSID) + 6502 asm	Official repo (Laxity/JCH/Chordian), actively maintained.
+NinjaTracker_V2.x	source	https://cadaver.github.io/tools.html	author-site	6502 asm (DASM)	Release zip bundles full editor+player /src.
+NinjaTracker_V1.x	source	https://cadaver.github.io/tools.html	author-site	6502 asm (DASM)	Source in release zip.
+SadoTracker	source	https://cadaver.github.io/tools.html	author-site	6502 asm	Source distributed in release zip.
+OdinTracker	source	https://www.zimmers.net/anonftp/pub/cbm/c64/audio/editors/OdinTracker113src.zip	author-site	6502 asm	Full source zip (Zed, 2001) on zimmers CBM archive.
+SidWinder	source	https://www.zimmers.net/anonftp/pub/cbm/c64/audio/editors/SIDwinder_V0123_src.zip	author-site	6502 asm	V01.23 source; Taki, reconstructed by Levente Harsfalvi.
+JITT64_1.x	source	https://sourceforge.net/p/jitt64/code/	sourceforge	Java	Active SVN repo (Ice00), GPLv2.
+XPMCK	source	https://github.com/mic-/xpmck	git-repo	Euphoria/Eiffel + 6502/Z80 asm	Cross-platform music compiler kit (Mic).
+FurC64	source	https://github.com/AnnoyedArt1256/furC64	git-repo	Python + 6502 asm	SID driver/converter for Furnace tracker (WIP).
+Sidbang64_1/Warp8	source	https://github.com/SebastianAbel/sidbang64	git-repo	Rust + 6502 asm	GPL-3.0; Rust host + C64 replayer.
+Sidbang64_2/Warp8	source	https://github.com/SebastianAbel/sidbang64	git-repo	Rust + 6502 asm	Same repo.
+Microtracker	source	https://codebase64.net/doku.php?id=base:microtracker_v1.0	codebase64	6502 asm (KickAssembler)	Full player source (author-reconstructed).
+8bitDigi/Mahoney	source	https://livet.se/mahoney/	author-site	6502 asm + MATLAB	8-bit DAC measurement program source + volume-table script.
+Zirias	source	https://github.com/Zirias/c64_basicmusic	git-repo	6502 asm + BASIC + C	BASIC music extension w/ custom playroutine (Felix Palmen).
+MoN/FutureComposer	source	https://github.com/realdmx/c64_6581_sid_players	git-repo (reverse-eng)	6502 asm (ACME)	Editor is binary-only (csdb id=10604); repo has RE source for the underlying Deenen MON driver.
+MoN/Deenen	source	https://github.com/realdmx/c64_6581_sid_players	git-repo (reverse-eng)	6502 asm (ACME)	RE source: Deenen_Charles_MON.
+DefMon	source	https://defmon.vandervecken.com/	binary-only	6502 asm (.d64)	Tool ships compiled only. Python driver: github.com/anarkiwi/defmon-driver (PyPI defmon-driver).
+Rob_Hubbard	reverse-eng	https://github.com/realdmx/c64_6581_sid_players/tree/master/Hubbard_Rob	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
+Martin_Galway	reverse-eng	https://github.com/realdmx/c64_6581_sid_players/tree/master/Galway%20Martin	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
+David_Whittaker	reverse-eng	https://github.com/realdmx/c64_6581_sid_players/tree/master/Whittaker_David	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
+Fred_Gray	reverse-eng	https://github.com/realdmx/c64_6581_sid_players/tree/master/Gray_Fred	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
+Matt_Gray	reverse-eng	https://github.com/realdmx/c64_6581_sid_players/tree/master/Gray_Matt	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
+Bjerregaard	reverse-eng	https://github.com/realdmx/c64_6581_sid_players/tree/master/Bjerregaard_Johannes_MON	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
+MoN/Bjerregaard	reverse-eng	https://github.com/realdmx/c64_6581_sid_players/tree/master/Bjerregaard_Johannes_MON	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
+Jeroen_Kimmel	reverse-eng	https://github.com/realdmx/c64_6581_sid_players/tree/master/Kimmel_Jeroen	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
+FAME	reverse-eng	https://github.com/realdmx/c64_6581_sid_players/tree/master/Bulka_Adam_FAME	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
+Audial_Arts	reverse-eng	https://github.com/realdmx/c64_6581_sid_players/tree/master/Audial_Arts	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
+Soundmonitor	magazine		magazine-listing		64'er magazine, Oct 1986 type-in listing (binary at csdb id=59929 / archive.org)
+Sidplayer	magazine		magazine-listing		Book 'All About the Commodore 64, Vol.2' (1985) — full type-in listing; scan at archive.org
+DefleMask_v2	commercial		commercial-closed		proprietary, no public source
+DefleMask_v1	commercial		commercial-closed		proprietary, no public source
+Prophet64	commercial		commercial-closed		proprietary, no public source
+DefleMask_v12	commercial		commercial-closed		proprietary, no public source
+SidTracker64	commercial		commercial-closed		proprietary, no public source
+Mssiah	commercial		commercial-closed		proprietary, no public source

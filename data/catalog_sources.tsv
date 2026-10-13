@@ -1,60 +1,60 @@
-count	player_id	category	name	author	released	reference	source_url	source_type	language	source_note
-10738	DMC	binary-only	Demo Music Creator System (DMC)	Balazs Farkas (Brian)	1991	https://csdb.dk/release/?id=2598				
-7550	GoatTracker_V2.x	source		Lasse Öörni (Cadaver)	2005 Covert Bitops	https://csdb.dk/release/?id=18308	https://sourceforge.net/projects/goattracker2/	sourceforge	C + 6502 asm	Official (Cadaver/Covert Bitops), GPLv2, maintained. .sng read/write in Python via ChiptuneSAK.
-6403	Music_Assembler	binary-only		Marco Swagerman (MC) & Oscar Giesen (OPM)	1989 The Dutch USA-Team	https://csdb.dk/release/?id=94388				
-4085	MoN/FutureComposer	source		Charles Deenen made the player & Juha Granberg (FCS) made the editor		https://csdb.dk/release/?id=10604	https://github.com/realdmx/c64_6581_sid_players	git-repo (reverse-eng)	6502 asm (ACME)	Editor is binary-only (csdb id=10604); repo has RE source for the underlying Deenen MON driver.
-3678	JCH_NewPlayer	binary-only		Jens-Christian Huus (JCH)		https://csdb.dk/release/?id=14037				
-3663	Soundmonitor	magazine		Chris Hülsbeck	1986 64'er/Markt & Technik	https://csdb.dk/release/?id=59929		magazine-listing		64'er magazine, Oct 1986 type-in listing (binary at csdb id=59929 / archive.org)
-1384	GoatTracker_V1.x	source		Lasse Öörni (Cadaver)	2001 Covert Bitops	https://csdb.dk/release/?id=152697	https://sourceforge.net/projects/goattracker2/	sourceforge	C + 6502 asm	Same SF project (v1 history).
+count	player_id	category	name	author	released	reference	source_url	source_type	language	note
+10758	DMC	binary-only	Demo Music Creator System (DMC)	Balazs Farkas (Brian)	1991	https://csdb.dk/release/?id=2598				
+7797	GoatTracker_V2.x	source		Lasse Öörni (Cadaver)	2005 Covert Bitops	https://csdb.dk/release/?id=18308	https://sourceforge.net/projects/goattracker2/	sourceforge	C + 6502 asm	Official (Cadaver/Covert Bitops), GPLv2, maintained. .sng read/write in Python via ChiptuneSAK.
+6462	Music_Assembler	binary-only		Marco Swagerman (MC) & Oscar Giesen (OPM)	1989 The Dutch USA-Team	https://csdb.dk/release/?id=94388				
+4093	MoN/FutureComposer	source		Charles Deenen made the player & Juha Granberg (FCS) made the editor		https://csdb.dk/release/?id=10604	https://github.com/realdmx/c64_6581_sid_players	git-repo (reverse-eng)	6502 asm (ACME)	Editor is binary-only (csdb id=10604); repo has RE source for the underlying Deenen MON driver.
+3687	JCH_NewPlayer	binary-only		Jens-Christian Huus (JCH)		https://csdb.dk/release/?id=14037				
+3682	Soundmonitor	magazine		Chris Hülsbeck	1986 64'er/Markt & Technik	https://csdb.dk/release/?id=59929		magazine-listing		64'er magazine, Oct 1986 type-in listing (binary at csdb id=59929 / archive.org)
+1387	GoatTracker_V1.x	source		Lasse Öörni (Cadaver)	2001 Covert Bitops	https://csdb.dk/release/?id=152697	https://sourceforge.net/projects/goattracker2/	sourceforge	C + 6502 asm	Same SF project (v1 history).
 1170	HardTrack_Composer	binary-only		Milosz Ignatowski (Longhair)		https://csdb.dk/release/?id=74928				
-1075	Master_Composer	binary-only	Master Composer	Paul Kleimeyer	1983 Access Software Inc.	https://csdb.dk/release/?id=128699				
-1074	Hermit/SidWizard_V1.x	source		Mihály Horváth (Hermit)			https://sourceforge.net/projects/sid-wizard/	sourceforge	6502 asm (64tass) + C	Source in SF release zips. Fork w/ source: github.com/anarkiwi/sid-wizard. Python port: pysidwizard.
-994	Geir_Tjelta/SIDDuzz'It	binary-only	SID Duzz'It (SDI)	Geir Tjelta & Glenn Rune Gallefoss (GRG)	1992	https://csdb.dk/release/?id=7175				
-950	SoedeSoft	binary-only		Jeroen Soede & Michiel Soede	1988 Soedesoft	https://csdb.dk/release/?id=117095				
+1126	Hermit/SidWizard_V1.x	source		Mihály Horváth (Hermit)			https://sourceforge.net/projects/sid-wizard/	sourceforge	6502 asm (64tass) + C	Source in SF release zips. Fork w/ source: github.com/anarkiwi/sid-wizard. Python port: pysidwizard.
+1078	Master_Composer	binary-only	Master Composer	Paul Kleimeyer	1983 Access Software Inc.	https://csdb.dk/release/?id=128699				
+1000	Geir_Tjelta/SIDDuzz'It	binary-only	SID Duzz'It (SDI)	Geir Tjelta & Glenn Rune Gallefoss (GRG)	1992	https://csdb.dk/release/?id=7175				
+951	SoedeSoft	binary-only		Jeroen Soede & Michiel Soede	1988 Soedesoft	https://csdb.dk/release/?id=117095				
 680	Digitalizer_V2.x	binary-only		Olav Mørkrid	1989	https://csdb.dk/release/?id=33646				
 593	RoMuzak_V6.x	binary-only		Oliver Blasnik (ROM)	1989 Digital Marketing	https://csdb.dk/release/?id=17814				
-522	Basic_Program	binary-only								
-446	GMC/Superiors	binary-only	Game Music Creator System	Balazs Farkas (Brian)	1990	https://csdb.dk/release/?id=7268				
+524	Basic_Program	binary-only								
+448	GMC/Superiors	binary-only	Game Music Creator System	Balazs Farkas (Brian)	1990	https://csdb.dk/release/?id=7268				
+428	SidFactory_II/Laxity	source		Thomas Egeskov Petersen (Laxity)	2020	https://csdb.dk/release/?id=210571	https://github.com/Chordian/sidfactory2	git-repo	C++ (reSID) + 6502 asm	Official repo (Laxity/JCH/Chordian), actively maintained.
 387	X-Ample	binary-only								
-380	SidFactory_II/Laxity	source		Thomas Egeskov Petersen (Laxity)	2020	https://csdb.dk/release/?id=210571	https://github.com/Chordian/sidfactory2	git-repo	C++ (reSID) + 6502 asm	Official repo (Laxity/JCH/Chordian), actively maintained.
+322	Laxity_NewPlayer_V21	binary-only		Thomas Egeskov Petersen (Laxity)	2006	https://csdb.dk/release/?id=26563				
 314	Loadstar_SongSmith	binary-only	Songsmith		Loadstar	https://csdb.dk/release/?id=122855				
-314	Laxity_NewPlayer_V21	binary-only		Thomas Egeskov Petersen (Laxity)	2006	https://csdb.dk/release/?id=26563				
-306	CheeseCutter_2.x	source		Timo Taipalus (Abaddon)	2011	https://csdb.dk/release/?id=106959	https://github.com/theyamo/CheeseCutter	git-repo	D + ACME 6502 asm	Official repo (Abaddon/theyamo), GPL.
+308	CheeseCutter_2.x	source		Timo Taipalus (Abaddon)	2011	https://csdb.dk/release/?id=106959	https://github.com/theyamo/CheeseCutter	git-repo	D + ACME 6502 asm	Official repo (Abaddon/theyamo), GPL.
 301	Electrosound	binary-only			1985 Orpheus	https://csdb.dk/release/?id=27433				
 293	Ubik's_Musik	binary-only	Ubik's Musik	Dave Korn (Ubik)	1987 Firebird	https://csdb.dk/release/?id=39950				
 289	Rob_Hubbard	reverse-eng		Rob Hubbard			https://github.com/realdmx/c64_6581_sid_players/tree/master/Hubbard_Rob	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
-269	TFX	binary-only		Ray	1995 Unreal	https://csdb.dk/release/?id=110111				
-264	SidTracker64	commercial		Daniel Larsson (Pernod)	2015			commercial-closed		proprietary, no public source
+270	TFX	binary-only		Ray	1995 Unreal	https://csdb.dk/release/?id=110111				
+266	SidTracker64	commercial		Daniel Larsson (Pernod)	2015			commercial-closed		proprietary, no public source
+257	DefleMask_v12	commercial		Leonardo Demartino (Delek)	2016	https://www.deflemask.com/		commercial-closed		proprietary, no public source
 246	AMP	binary-only	Advanced Music Programmer	Andrew Miller (Burton)	1989 Hitech Studio Designs	https://csdb.dk/release/?id=35519				
-245	DefleMask_v12	commercial		Leonardo Demartino (Delek)	2016	https://www.deflemask.com/		commercial-closed		proprietary, no public source
-245	20CC	binary-only		Falco Paul		https://csdb.dk/release/?id=10741				
-197	EMS/Odie	binary-only		Sean Connolly (Odie)						
+246	20CC	binary-only		Falco Paul		https://csdb.dk/release/?id=10741				
+199	EMS/Odie	binary-only		Sean Connolly (Odie)						
 197	Cyberlogic_SoundStudio	binary-only	Cyberlogic Sound Studio	Oliver Klee & Sascha Nagie	1991	https://csdb.dk/release/?id=170632				
 192	Jeff	binary-only	Music Editor	Søren Lund (Jeff)	1996 Cyberzound Productions	https://csdb.dk/release/?id=122334				
-184	John_Player	binary-only		Aleksi Eeben	2001 Aleksi Eeben					
-182	MusicShop	binary-only	The Music Shop	Don Williams	1984 Brøderbund Software	https://csdb.dk/release/?id=82453				
+186	John_Player	binary-only		Aleksi Eeben	2001 Aleksi Eeben					
+184	MusicShop	binary-only	The Music Shop	Don Williams	1984 Brøderbund Software	https://csdb.dk/release/?id=82453				
 179	Vibrants/Laxity	binary-only	LAXITY editor	Thomas Egeskov Petersen (Laxity)		https://csdb.dk/release/?id=122333				
 163	OdinTracker	source		Zoltán Konyha (Zed)	2000	https://csdb.dk/release/?id=12577	https://www.zimmers.net/anonftp/pub/cbm/c64/audio/editors/OdinTracker113src.zip	author-site	6502 asm	Full source zip (Zed, 2001) on zimmers CBM archive.
 148	Ariston	binary-only		Ian Crabtree						
 140	MoN/Deenen	source		Charles Deenen			https://github.com/realdmx/c64_6581_sid_players	git-repo (reverse-eng)	6502 asm (ACME)	RE source: Deenen_Charles_MON.
 137	Reflextracker	binary-only		Tammo Hinrichs (kb) & Matthias Kramm (Quiss) & Zorc		https://csdb.dk/release/?id=43348				
 134	LordsOfSonics/MS	binary-only		Markus Schneider						
+132	Vibrants/JO	binary-only		Poul-Jesper Olsen (JO)						
 131	Prosonix	binary-only	Prosonix Music Editor	Stein Pedersen	1988 Prosonix	https://csdb.dk/release/?id=179618				
 130	CyberTracker_exe	binary-only			2001	https://csdb.dk/release/?id=6663				
-130	Vibrants/JO	binary-only		Poul-Jesper Olsen (JO)						
 128	CyberTracker	binary-only		Bjarke Nørgaard Laustsen (CyberBrain)	2001	https://csdb.dk/release/?id=2601				
+118	SidWinder	source		Balázs Takács (Taki)	1999 Natural Beat	https://csdb.dk/release/?id=66494	https://www.zimmers.net/anonftp/pub/cbm/c64/audio/editors/SIDwinder_V0123_src.zip	author-site	6502 asm	V01.23 source; Taki, reconstructed by Levente Harsfalvi.
 117	David_Whittaker	reverse-eng					https://github.com/realdmx/c64_6581_sid_players/tree/master/Whittaker_David	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
-117	SidWinder	source		Balázs Takács (Taki)	1999 Natural Beat	https://csdb.dk/release/?id=66494	https://www.zimmers.net/anonftp/pub/cbm/c64/audio/editors/SIDwinder_V0123_src.zip	author-site	6502 asm	V01.23 source; Taki, reconstructed by Levente Harsfalvi.
 108	SynC	binary-only	SYNdrom Composer	Matthias Hartung (The Syndrom)		https://csdb.dk/release/?id=7850				
-107	DefMon	source		Mats (Frantic of Hack'n'Trade)	2013	https://csdb.dk/release/?id=120965	https://defmon.vandervecken.com/	binary-only	6502 asm (.d64)	Tool ships compiled only. Python driver: github.com/anarkiwi/defmon-driver (PyPI defmon-driver).
+106	DefMon	source		Mats (Frantic of Hack'n'Trade)	2013	https://csdb.dk/release/?id=120965	https://defmon.vandervecken.com/	binary-only	6502 asm (.d64)	Tool ships compiled only. Python driver: github.com/anarkiwi/defmon-driver (PyPI defmon-driver).
 104	System6581	binary-only		Fredrik Hederstierna (Zizyphus)		https://csdb.dk/release/?id=27434				
 102	Michael_Winterberg	binary-only	Speedi System	Michael Winterberg						
 102	Walt/Bonzai	binary-only		Anders Fogh (Walt)	1990 Bonzai	https://csdb.dk/release/?id=12580				
 99	Audial_Arts	reverse-eng	Zong Player	François Prijt	Audial Arts		https://github.com/realdmx/c64_6581_sid_players/tree/master/Audial_Arts	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
 99	Chubrocker_V3.x	binary-only		László Benke (Dec)	1995 Cadgers	https://csdb.dk/release/?id=114185				
-97	NinjaTracker_V2.x	source		Lasse Öörni (Cadaver)	2006 Covert Bitops	https://csdb.dk/release/?id=39374	https://cadaver.github.io/tools.html	author-site	6502 asm (DASM)	Release zip bundles full editor+player /src.
+98	NinjaTracker_V2.x	source		Lasse Öörni (Cadaver)	2006 Covert Bitops	https://csdb.dk/release/?id=39374	https://cadaver.github.io/tools.html	author-site	6502 asm (DASM)	Release zip bundles full editor+player /src.
+96	TBB/SideB	binary-only		Tero Hilpinen (TBB)						
 94	JCH_Protracker	binary-only		Jens-Christian Huus (JCH)						
-94	TBB/SideB	binary-only		Tero Hilpinen (TBB)						
 92	Sosperec	binary-only		Gabor Torday (Grabowsky)	1991	https://csdb.dk/release/?id=18233				
 91	Guy_Shavitt	binary-only								
 88	Antony_Crowther_V3	binary-only		Antony Crowther						
@@ -75,7 +75,7 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 67	Heathcliff/DigitalArts	binary-only	Audio Assembler (a.k.a. Focus in-house music editor)	Rene Lergner (Heathcliff)	1990 Digital Arts	https://csdb.dk/release/?id=112794				
 67	Asterion_V1.x	binary-only		Rafal Kazimierski (Asterion)	2004	https://csdb.dk/release/?id=11576				
 65	Music_Processor	binary-only	The Music Processor	M. Peter Engelbrite	1984 Sight & Sound	https://csdb.dk/release/?id=150058				
-61	Virtuoso	binary-only		Hein Holt	2015 Vision	https://csdb.dk/release/?id=139247				
+62	Virtuoso	binary-only		Hein Holt	2015 Vision	https://csdb.dk/release/?id=139247				
 60	Ben_Daglish/Gremlin	binary-only								
 55	Martin_Galway	reverse-eng		Martin Galway			https://github.com/realdmx/c64_6581_sid_players/tree/master/Galway%20Martin	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
 54	SkyLine_Editor	binary-only	SkyLine Editor	Daniel Stenberg (Danne)	1989 SkyLine Technics	https://csdb.dk/release/?id=22726				
@@ -85,13 +85,14 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 52	Artline_Designs	binary-only		Antti Kangas (AK)	Artline Designs					
 52	Geir_Tjelta/SIDSys18.6	binary-only	Sid Systems V4.1	Geir Tjelta	1990	https://csdb.dk/release/?id=33644				
 48	Basic/Jim_Butterfield	binary-only								
+48	Power_Music	binary-only		Michael Kukat (Raster Buster)	1989 Matrix	https://csdb.dk/release/?id=61127				
 48	Arne/AFL	binary-only		Arne Puszelski (Arne)						
-47	Power_Music	binary-only		Michael Kukat (Raster Buster)	1989 Matrix	https://csdb.dk/release/?id=61127				
 47	Adam_Gilmore	binary-only								
 46	Geir_Tjelta/SIDSys18.4	binary-only	Sid Systems V4.1	Geir Tjelta	1990	https://csdb.dk/release/?id=33644				
 45	David_Dunn	binary-only								
 45	Griff	binary-only		Péter Varga (Griff)						
 45	Geir_Tjelta/SIDSys_1.0	binary-only	Sid Systems V1	Geir Tjelta	1990	https://csdb.dk/release/?id=108477				
+43	Blackbird/LFT	binary-only	Blackbird 1.0	Linus Åkesson (lft)	2017 lft	https://csdb.dk/release/?id=153555				
 42	Mssiah	commercial			2008 8bit Ventures			commercial-closed		proprietary, no public source
 42	The_Music_System	binary-only	The Music System		1985 Firebird					
 42	Music_Studio/Lieblich	binary-only			1985 Activision	https://csdb.dk/release/?id=90711				
@@ -100,29 +101,28 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 41	5_Dimension	binary-only	5 Dimension Composer	Pleite Geier	1990 Pleite Geier	https://csdb.dk/release/?id=122330				
 40	Olav_Moerkrid	binary-only								
 40	SidFactory/Laxity	binary-only		Thomas Egeskov Petersen (Laxity)	2006	https://csdb.dk/release/?id=39519				
-40	Blackbird/LFT	binary-only	Blackbird 1.0	Linus Åkesson (lft)	2017 lft	https://csdb.dk/release/?id=153555				
 39	Digi-Organizer	binary-only	Digi-Organizer	Pawel Soltysinski (Polonus) & Marco Wienkoop (Lubber)	1991 Padua	https://csdb.dk/release/?id=871				
 39	MusicComposer/FlashInc	binary-only	Music-Composer	Fredrik Karlsson (Zodiac) & Anders Elmén (Moon)	1991 Flash Inc.					
 39	Equalizer	binary-only								
 37	D.A.I.S.Y.	binary-only								
 37	Background_MusicEditor	binary-only	Background Music Editor	Gary Davis	1983	https://hvmec.altervista.org/blog/?p=3405				
 37	NordicBeat_Editor	binary-only		Daniel Hansson (Matrix)	1991 Nordic Beat	https://csdb.dk/release/?id=33642				
+37	4753_Softcopy	binary-only								
 37	MusDriver/Paul_Hughes	binary-only	Music Driver	Paul Hughes						
 37	Mark_Cooksey	binary-only		Mark Cooksey						
 37	Stephen_Ruddy	binary-only		Stephen Ruddy						
 37	Maduplec	binary-only		Martin Arentoft (Maduplec)						
-36	4753_Softcopy	binary-only								
 36	Comer/NMI_Sample_5	binary-only		Pawel Kulikowski (Comer)		https://csdb.dk/release/?id=101599				
-35	PVL/Rhythmic_Lunatics	binary-only		Pascal van Loosbroek (PVL)						
+36	PVL/Rhythmic_Lunatics	binary-only		Pascal van Loosbroek (PVL)						
 35	Jeroen_Kimmel	reverse-eng					https://github.com/realdmx/c64_6581_sid_players/tree/master/Kimmel_Jeroen	git-repo (reverse-eng)	6502 asm (ACME)	RE driver source by composer
 34	Soundbooster	binary-only		Stephan Swertvaegher (Midas)	1990	https://csdb.dk/release/?id=7536				
 34	GeniusComposer	binary-only		Tobias Erbsland (Dr. Zoom)	1994	https://csdb.dk/release/?id=94332				
 33	Sonic_Graffiti	binary-only	Sonic Graffiti Music Editor	Andy Lumley	1989 Sonic Graffiti	https://csdb.dk/release/?id=122160				
 32	JCH_OldPlayer	binary-only		Jens-Christian Huus (JCH)						
+32	Sidbang64_2/Warp8	source		Sebastian Abel (Warp8)			https://github.com/SebastianAbel/sidbang64	git-repo	Rust + 6502 asm	Same repo.
 31	C64_Speech_System	binary-only	C64 Speech System	Kristian Köhntopp	1986 64'er/Markt & Technik	https://csdb.dk/release/?id=129965				
 31	Cycleburner_Digi	binary-only		Even Scharning (Cycleburner)						
 31	Mark_Tait	binary-only								
-31	Sidbang64_2/Warp8	source		Sebastian Abel (Warp8)			https://github.com/SebastianAbel/sidbang64	git-repo	Rust + 6502 asm	Same repo.
 30	Acid_Player	binary-only		Stuart McDowell (Acid)						
 28	TFMX/TimeComposer	binary-only		Oliver Hoeller (Rhodan)	1990	https://csdb.dk/release/?id=62502				
 28	Neil_Brennan	binary-only								
@@ -158,12 +158,12 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 20	Anvil	binary-only		Petri Reiman (Anvil)						
 20	MacMusic	binary-only				https://csdb.dk/release/?id=117250				
 19	Antony_Crowther_V2	binary-only	Music Master	Antony Crowther	1986 Your Commodore	https://csdb.dk/release/?id=14590				
+19	OxyMod4Bit/THCM	binary-only		Uwe Anfang (The Human Code Machine)						
 19	Artlace	binary-only	Artlace Editor (ARL-Editor)	Artúr Bujdosó (Artlace)	1993 Rebels	https://csdb.dk/release/?id=152723				
+19	GRG_tiny_4	binary-only		Glenn Rune Gallefoss (GRG)						
 19	Music_Construction_Set	binary-only	Will Harvey's Music Construction Set	Will Harvey	1984 Electronic Arts	https://csdb.dk/release/?id=185248				
 18	Comer/Sample_Studio	binary-only		Pawel Kulikowski (Comer)		https://csdb.dk/release/?id=101704				
 18	NinjaTracker_V1.x	source		Lasse Öörni (Cadaver)	2002 Covert Bitops	https://csdb.dk/release/?id=7206	https://cadaver.github.io/tools.html	author-site	6502 asm (DASM)	Source in release zip.
-18	OxyMod4Bit/THCM	binary-only		Uwe Anfang (The Human Code Machine)						
-18	GRG_tiny_4	binary-only		Glenn Rune Gallefoss (GRG)						
 18	Burgstaller_B	binary-only								
 18	Micropearl/Fitzpatrick	binary-only								
 18	Ghost/SampleMon	binary-only	Sample Mon	Slawomir Skrzynski (Ghost)	1994 Biuro Informatyczno-Wydawnicze (BIW)	https://csdb.dk/release/?id=9876				
@@ -172,15 +172,18 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 17	K-Byte	binary-only								
 17	GalBard/ATOO	binary-only	GalBard	Anders Andréen (ATOO)						
 17	Chris_Cox	binary-only								
+17	JammicroV1	binary-only	Jammicro V1	Kamil Wolnikowski (Jammer)						
 17	Extra_Sound	binary-only		Tobias Herre		https://csdb.dk/release/?id=111493				
 17	Ashley_Hogg	binary-only								
 17	Toaster_Digi	binary-only		Tomasz Przybylski (Toaster)						
 17	Martin_Walker	binary-only								
+17	Zyborg	binary-only		Mikkel Jakobsen (Zyborg)						
 16	Assassin_Sample_Mixer	binary-only	Sample Mixer	Assassin	1993	https://csdb.dk/release/?id=129555				
+16	Polyanna	binary-only		Aleksi Eeben	2017	https://csdb.dk/release/?id=153091				
 16	Element114Studio_1.0	binary-only	Music Studio Plus	Martin Piper & Alan Peters	1992 Element 114 Software					
 16	DMC_V6.x	binary-only	Demo Music Creator System (DMC)	Balazs Farkas (Brian)						
 16	Henning_Andersen	binary-only								
-15	Polyanna	binary-only		Aleksi Eeben	2017	https://csdb.dk/release/?id=153091				
+15	Hermit/FlexSID	source		Mihály Horváth (Hermit)	2022	https://csdb.dk/release/?id=214694	https://hermit.sidrip.com/	author-site	C	Built on Hermit's cRSID C library.
 15	PlayStar	binary-only	Play Star	Radoslaw Andrzejewicz (Rabbi)						
 14	OmegaSupreme_Digi	binary-only		Olav Mørkrid (Omega Supreme)						
 14	Sidplayer	magazine		Craig Chamberlain	1985	https://csdb.dk/release/?id=33248		magazine-listing		Book 'All About the Commodore 64, Vol.2' (1985) — full type-in listing; scan at archive.org
@@ -188,9 +191,8 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 14	Michael_Delaney	binary-only	C64 Music Editor V1.0	Michael Delaney	1992 Michael Delaney	https://csdb.dk/release/?id=138249				
 14	Android	binary-only		Andrew Craigie (Android)						
 14	GRG_tiny_2	binary-only		Glenn Rune Gallefoss (GRG)						
-14	Hermit/FlexSID	source		Mihály Horváth (Hermit)	2022	https://csdb.dk/release/?id=214694	https://hermit.sidrip.com/	author-site	C	Built on Hermit's cRSID C library.
+14	Bobbi_Towers	binary-only								
 13	Neil_Baldwin	binary-only								
-13	JammicroV1	binary-only	Jammicro V1	Kamil Wolnikowski (Jammer)						
 13	Glover	binary-only		Lukasz Baran (Glover)						
 13	Kosa_Protracker	binary-only		Jakub Kosinski (Kosa)						
 13	Dave_Lowe	binary-only								
@@ -202,14 +204,15 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 12	Paul_Butler	binary-only								
 12	Mark_Clements	binary-only								
 12	Anthony_Lees	binary-only								
+12	Prosonix_new	binary-only								
 12	Stuart_Taylor	binary-only								
 12	Mark_Wilson	binary-only		Mark Wilson						
 11	Dutch-USA_Team/ProDrum	binary-only		The Dutch USA-Team	1988	https://csdb.dk/release/?id=20672				
 11	?Hoernell/Players	binary-only								
+11	Geir_Tjelta/Echo	binary-only								
 11	Samplomed	binary-only								
 11	GRG	binary-only		Glenn Rune Gallefoss (GRG)						
 11	Russell_Lieblich	binary-only		Russell Lieblich						
-11	Prosonix_new	binary-only								
 11	Gavin_Raeburn	binary-only								
 11	ATMDS_3.x	binary-only	Acid Track Music Development System (ATMDS)	Stefan Hübner (St0ff)	2001 Neoplasia	https://csdb.dk/release/?id=7159				
 10	?MSB	binary-only								
@@ -218,7 +221,6 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 10	?Paul_Hodgson	binary-only								
 10	Paul_Norman/Cosmi	binary-only								
 10	OxyMod/THCM	binary-only		Uwe Anfang (The Human Code Machine)						
-10	Geir_Tjelta/Echo	binary-only								
 10	Faith_Sample_Mixer	binary-only	Sample Mixer	Slawomir Balon (BS)	1994 Faith Design	https://csdb.dk/release/?id=7296				
 10	Star_Bars	binary-only	Star Bars Atari 2600 Music Editor	Aleksi Eeben	2023	https://csdb.dk/release/?id=234625				
 10	Wyndex/Blahtune	binary-only		Stephen L. Judd (Wyndex)	1997	http://www.ffd2.com/fridge/blahtune/				
@@ -226,10 +228,10 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 10	DrumEditor	binary-only	Drumeditor V3.0	Frank Hugenroth & André Hugenroth	1990 64'er-Disc/Markt & Technik	https://csdb.dk/release/?id=136179				
 10	Oeyvind_Jergan	binary-only		Øyvind Jergan						
 10	Oliver_Klaewer	binary-only								
-10	Zyborg	binary-only		Mikkel Jakobsen (Zyborg)						
 9	Censor_Digi_1	binary-only								
 9	Synth_Executor	binary-only	Synth Executor	Georg Feil (Georgie)	1986 Georg Feil	https://csdb.dk/release/?id=57436				
 9	?TheSpy_Digi	binary-only								
+9	Quantum_Soundtracker	binary-only		Aleksi Eeben	2024 Aleksi Eeben	https://csdb.dk/release/?id=245053				
 9	MiniMusic	binary-only	Mini Music Editor	Balazs Farkas (Brian)	1990 Tomcat	https://csdb.dk/release/?id=55790				
 9	?Alligata/Quicksilva	binary-only								
 9	?Bob_Vieira/Epyx	binary-only								
@@ -251,7 +253,9 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 8	Tonal_Kaos	binary-only								
 8	Dave_Lee	binary-only								
 8	Steve_Turner	binary-only								
+8	Audial_Arts/Cody	binary-only								
 8	?Howard_Boles	binary-only								
+8	Geir_Tjelta/Comptech-X	binary-only	Comptech-X	Geir Tjelta	2019 <?>					
 8	ICC/TheVoice	binary-only		Incredibly Confused Coder (ICC)						
 8	David_Green	binary-only								
 8	Jason_Page/RobTracker	binary-only		Jason Page						
@@ -267,12 +271,10 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 8	Graffity/Grabowsky	binary-only								
 8	Matthias_Weber	binary-only								
 7	Power-Composer	binary-only		Markus (Biscuit)		https://csdb.dk/release/?id=236659				
-7	Quantum_Soundtracker	binary-only		Aleksi Eeben	2024 Aleksi Eeben	https://csdb.dk/release/?id=245053				
 7	Mcee_Digi	binary-only								
 7	Colleen	binary-only								
 7	?Jim_Simmons/Capcom	binary-only								
 7	VoiceEater	binary-only		Rolf Runar Bakke	1999 SHAPE	https://csdb.dk/release/?id=33610				
-7	Bobbi_Towers	binary-only								
 7	Ed_Bogas/Accolade	binary-only		Ed Bogas						
 7	Neil_Crossley	binary-only								
 7	Ivan_Del_Duca	binary-only								
@@ -297,7 +299,6 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 6	Digimixer/FunFactory	binary-only	Digimixer	Gyula Szalai (Jules)	199? Fun Factory	https://csdb.dk/release/?id=129559				
 6	Censor_Digi_2	binary-only								
 6	MacGyver/ESV	binary-only	Expanded SID Voice	Mac Gyver	1988 Digitize Design Group	https://csdb.dk/release/?id=129556				
-6	Geir_Tjelta/Comptech-X	binary-only	Comptech-X	Geir Tjelta	2019 <?>					
 6	Rene_Romijn	binary-only								
 6	Matt_Furniss	binary-only								
 6	Golem	binary-only		Paul H. (Golem)						
@@ -327,7 +328,6 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 5	4-Mat_tiny_1	binary-only								
 5	HCL/BoozeDesign	binary-only		David Malmborg (HCL)						
 5	Graffity/Brian	binary-only								
-5	Audial_Arts/Cody	binary-only								
 5	Bappalander/Spacelab1	binary-only								
 5	Bug/NCI	binary-only								
 5	SkyLine_Editor_V3.0	binary-only	SkyLine Editor	Daniel Stenberg (Danne)	1990 SkyLine Technics	https://csdb.dk/release/?id=167080				
@@ -437,6 +437,7 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 3	Cope/Omicron	binary-only								
 3	Jeff/BullSID	binary-only		Søren Lund (Jeff)						
 3	CRD_Tracker	binary-only	CRD-Tracker64	Owen Crowley (CRD)	2007 Owen Crowley	https://csdb.dk/release/?id=48461				
+3	Cycleburner_Digi_2	binary-only		Even Scharning (Cycleburner)						
 3	Cyrion_Digi	binary-only								
 3	Daw_Digi	binary-only		David Fahlander (Daw)						
 3	Drumtex_tiny	binary-only								
@@ -480,6 +481,7 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 3	Robert_Westgate_v1	binary-only		Robert Westgate						
 3	Wyndex/ISEQ	binary-only		Stephen L. Judd (Wyndex)	2001	https://csdb.dk/release/?id=113028				
 3	Yip_Digi	binary-only								
+3	Ola_Zandelin	binary-only								
 3	Zirias	source		Felix Palmen (Zirias)			https://github.com/Zirias/c64_basicmusic	git-repo	6502 asm + BASIC + C	BASIC music extension w/ custom playroutine (Felix Palmen).
 2	Ed/Wrath_Digi	binary-only		Eddie Svärd (Ed)						
 2	Champ_Digi	binary-only								
@@ -548,6 +550,7 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 2	KB/SDS	binary-only		Tammo Hinrichs (kb) of Smash Designs (SDS)						
 2	Abaddon_Digi	binary-only		Timo Taipalus (Abaddon)						
 2	AnnoyedArt1256_Digi	binary-only								
+2	Mah_Tracker	binary-only		AnnoyedArt1256	2026 AnnoyedArt1256	https://github.com/AnnoyedArt1256/mah-tracker				
 2	(Audial_Arts_Digi)	binary-only								
 2	Sarah_Jane_Avory	binary-only								
 2	ProDrum_2/Antifan	binary-only		Christian Grün (Antifan)		https://csdb.dk/release/?id=74041				
@@ -602,7 +605,6 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 2	Mr_Wedge	binary-only								
 2	Martin_Wheeler	binary-only								
 2	X-Byte	binary-only								
-2	Ola_Zandelin	binary-only								
 2	Zeta_Digi	binary-only								
 2	Zmolk	binary-only								
 1	128bytes_tiny	binary-only								
@@ -626,6 +628,7 @@ count	player_id	category	name	author	released	reference	source_url	source_type	l
 1	SoftwareAutomaticMouth	binary-only			1983 Don't Ask Computer Software	https://csdb.dk/release/?id=42843				
 1	Daglish/Gremlin_SFX	binary-only								
 1	SidStep2	binary-only								
+1	Drumtex/SidBarrett	binary-only								
 1	256bytes/AEB	binary-only								
 1	Geir_Tjelta/MacroPlay1	binary-only	Macro Player	Geir Tjelta	2009	https://csdb.dk/release/?id=76493				
 1	TheTracker/Hitmen	binary-only		Groepaz	1998 Hitmen	https://csdb.dk/release/?id=3385				

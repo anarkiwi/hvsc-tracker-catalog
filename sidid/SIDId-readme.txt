@@ -1,7 +1,7 @@
 SIDId V1.09 - Quick & dirty HVSC playroutine identity scanner
 Written by Cadaver (loorni@gmail.com), playroutine signatures provided by Ian
-Coog, Ice00, Ninja, Yodelking, Wilfred/HVSC & Prof. Chaos. Playroutine info 
-file from HVSC crew.
+Coog, Ice00, Ninja, Yodelking, Wilfred/HVSC, Prof. Chaos. & Toddler-Boy. 
+Playroutine info file from HVSC crew.
 
 Usage: sidid [directory to scan] [options]
 
@@ -59,7 +59,7 @@ V1.08   - List full filenames when scanning for one player only
 V1.09   - Fixed not recognizing the last byte of a file as part of a sequence
 
 
-Copyright (C) 2006-2021 by the author & contributors. All rights reserved.
+Copyright (C) 2006-2026 by the author & contributors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
