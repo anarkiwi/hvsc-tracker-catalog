@@ -3,7 +3,7 @@ name = "hvsc-tracker-catalog"
 version = "0.2.1"
 description = "Catalog of the playroutines behind HVSC tunes and where their source can be read"
 license = "Apache-2.0"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = ["pysidtracker[survey]>=0.48.1"]
 
 [project.optional-dependencies]
